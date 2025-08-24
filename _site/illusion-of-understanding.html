@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Illusion of Understanding</title>
+  <meta name="description" content="An analogy between Daniel Kahneman’s book section *The Illusion of Understanding* and my experience in the lab">
+  <link rel="canonical" href="http://localhost:4000/illusion-of-understanding">
+  <link rel="alternate" type="application/rss+xml" title="InCoherentTerms Feed"
+    href="http://localhost:4000/feed.xml">
+  
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
+  
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <div id="page" class="site">
+    <div class="inner">
+      <header class="site-header">
+  
+  <p class="site-title"><a class="logo-text" href="/">InCoherentTerms</a></p>
+  
+  <nav class="site-navigation">
+    <div class="site-navigation-wrap">
+      <h2 class="screen-reader-text">Main navigation</h2>
+      <ul class="menu">
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/">Home</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/about/">About</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/style-guide/">Style Guide</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/tags/">Tags</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme">Download</a>
+        </li>
+        
+      </ul><!-- .menu -->
+      <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
+          class="icon-close" aria-hidden="true"></span></button>
+    </div><!-- .site-navigation-wrap -->
+  </nav><!-- .site-navigation -->
+  <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+</header>
+
+
+      <main class="main-content fadeInDown delay_075s">
+
+  <article class="post">
+    <header class="post-header">
+      <time class="post-date" datetime="2025-08-22">August 22, 2025</time>
+      <h1 class="post-title">The Illusion of Understanding</h1>
+      <div class="post-meta">
+        By <span class="post-author">Amin Zamani</span><span class="post-tags"> in <a href="/tags/#conceptual+metaphor" rel="tag">conceptual metaphor</a>, <a href="/tags/#books" rel="tag">books</a></span>
+      </div><!-- .post-meta -->
+      
+    </header><!-- .post-header -->
+    <div class="post-content">
+      <p>Here’s a metaphor that came to mind while reading <em>The Illusion of Understanding</em> by Daniel Kahneman.<br />
+<!--more--></p>
+
+<p>In our cold atom experiments, learning something about the atoms usually requires repeating the experiment many times. For example, suppose we want to study how the population of atoms in a certain state changes as we vary a parameter A over the range from A0 to A₁. We begin by setting A = A0, let the particles evolve, then measure their state. This produces a single <em>shot</em>—essentially a snapshot of the atoms. We then increment the parameter to A = A₀ + dA, repeat the process, and continue until we reach A = A1. This gives us one scan through the parameter range. To obtain meaningful results, we repeat this scan many times, each time preparing the cold atom sample from scratch, which allows us to build up a <em>probability distribution</em>.</p>
+
+<p>The number of repetitions depends on the question at hand. For a typical spectroscopy experiment, where we aim to determine the energy of an atomic transition, we might repeat the experiment about 500 times. With the collected data, we fit a theoretical model to extract the relevant parameters.</p>
+
+<p>Now suppose we’ve determined the transition energy and want to observe <em>Rabi oscillations</em>—coherent oscillations of an atom between two energy levels. In this case, the scan parameter is the duration of the laser pulse driving the transition, and the observable is the population of atoms in one of the states. A single scan through the range might look like this:</p>
+
+<figure>
+    <img src="/images/2025-08-22/20250822_single_shot_data.png" width="800" height="450" alt="Single run data" />
+    <figcaption>Experimental data from a single run of the experiment.</figcaption>
+</figure>
+
+<p>The large error bars show that we are not very confident about this data yet. If we repeat the entire scan 100 times and average the results, the data might instead look like this:</p>
+
+<figure>
+    <img src="/images/2025-08-22/20250822_many_shots_data.png" width="800" height="450" alt="Single run data" />
+    <figcaption>Experimental data from a single run of the experiment.</figcaption>
+</figure>
+
+<p>Now the error bars are smaller, which is expected, since we repeated the experiment many times and are now more confident about each data point. If we fit a model to the first (single-run) dataset, we might obtain something like this:</p>
+
+<figure>
+    <img src="/images/2025-08-22/20250822_single_shot_data_and_fit.png" width="800" height="450" alt="Single run data" />
+    <figcaption>Experimental data from a single run of the experiment.</figcaption>
+</figure>
+
+<p>Whereas fitting the averaged dataset gives us something more like this:</p>
+
+<figure>
+    <img src="/images/2025-08-22/20250822_many_shots_data_and_fit.png" width="800" height="450" alt="Single run data" />
+    <figcaption>Experimental data from a single run of the experiment.</figcaption>
+</figure>
+
+<p>The first fit is misleading. It suggests persistent, coherent oscillations lasting for several cycles. In quantum computing terms, this would imply an exceptionally high-fidelity NOT gate (which flips one atomic state to another). However, the averaged data tells a different story: on average, our NOT gate is not nearly as good as the single run suggested. It achieves a fidelity of about 90%.</p>
+
+<hr />
+
+<p><em>The Illusion of Understanding</em> is a section in Daniel Kahneman’s <em>Thinking, Fast and Slow</em>. He describes a fallacy in human reasoning: our tendency to weave coherent stories from very limited information. To quote him: <em>“Paradoxically, it is easier to construct a coherent story when you know little.”</em></p>
+
+<p>This insight is what reminded me of the analogy above. I highly recommend this section of the book—and, in fact, the entire book.</p>
+
+    </div><!-- .post-content -->
+    <div class="post-share">
+      <span>Share:</span>
+      <a target="_blank"
+        href="https://twitter.com/intent/tweet?text=The%20Illusion%20of%20Understanding&amp;url=http://localhost:4000/illusion-of-understanding" rel="noopener">Twitter</a>
+      <a target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/illusion-of-understanding&amp;t=The%20Illusion%20of%20Understanding" rel="noopener">Facebook</a>
+    </div><!-- .share-post -->
+    <div class="author-box">
+      
+      <div class="author-avatar" style="background-image: url('images/bio-photo.jpeg')"><span class="screen-reader-text">Amin Zamani's Picture</span></div>
+      
+      <div class="author-details">
+        <h2 class="author-title">About Amin Zamani</h2>
+        <div class="author-bio"><p>Amin is an experimental physicist in the field of atomic, molecular and optical physics.</p>
+</div>
+        
+        <span class="author-location">Munich, Germany</span>
+        
+        
+        <span class="author-website"><a href="https://justgoodthemes.com" target="_blank" rel="noopener">https://justgoodthemes.com</a></span>
+        
+      </div><!-- .author-details -->
+    </div><!-- .author-box -->
+  </article><!-- .post -->
+
+  
+    <div class="comments-area">
+  <div class="comments-inner">
+    <h2 class="comments-title">Comments</h2>
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+        Disqus</a>.</noscript>
+  </div><!-- .comments-inner -->
+</div><!-- .comments-area -->
+
+<script type="text/javascript">
+  var disqus_shortname = 'justgoodthemes';
+  var disqus_developer = 0;
+  (function () {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+  
+
+</main><!-- .main-content -->
+      <footer class="site-footer">
+  <div class="offsite-links">
+    
+      
+<a href="https://twitter.com/" target="_blank" rel="noopener">
+  <span class="fa-twitter" aria-hidden="true"></span>
+  <span class="screen-reader-text">Twitter</span>
+</a>
+
+<a href="https://github.com/amin7tsix" target="_blank" rel="noopener">
+  <span class="fa-github" aria-hidden="true"></span>
+  <span class="screen-reader-text">GitHub</span>
+</a>
+
+<a href="https://www.instagram.com/" target="_blank" rel="noopener">
+  <span class="fa-instagram" aria-hidden="true"></span>
+  <span class="screen-reader-text">Instagram</span>
+</a>
+
+<a href="www.linkedin.com/in/amin-zamani-759b0a189" target="_blank" rel="noopener">
+  <span class="fa-linkedin" aria-hidden="true"></span>
+  <span class="screen-reader-text">LinkedIn</span>
+</a>
+
+    
+  </div><!-- .offsite-links -->
+  <div class="footer-bottom">
+    <div class="site-info">
+      <p>© Scriptor all rights reserved. Theme by <a href="https://www.justgoodthemes.com">JustGoodThemes</a>.</p>
+
+    </div><!-- .site-info -->
+    <a href="#page" id="back-to-top" class="back-to-top"><span class="screen-reader-text">Back to the top </span>&#8593;</a>
+  </div><!-- .footer-bottom -->
+</footer><!-- .site-footer -->
+
+    </div><!-- .inner -->
+  </div><!-- .site -->
+
+  <!-- Scripts -->
+  
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+  
+  <script src="/assets/js/plugins.js"></script>
+  <script src="/assets/js/custom.js"></script>
+
+</body>
+</html>

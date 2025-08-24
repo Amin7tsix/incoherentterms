@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>InCoherentTerms</title>
+        <description>Notes, stories, and experiments in writing out loud. Personal Blog of Amin Zamani</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sun, 24 Aug 2025 20:27:30 +0200</pubDate>
+        <lastBuildDate>Sun, 24 Aug 2025 20:27:30 +0200</lastBuildDate>
+        <generator>Jekyll v4.3.4</generator>
+        
+            <item>
+                <title>When Logic Hurts</title>
+                <description>&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;
+The following reflects my personal opinion, though I avoid repeating &lt;em&gt;IMO&lt;/em&gt; throughout the text to keep the flow natural.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;When talking with friends, I’ve noticed a certain bitterness in strictly logical, precise speech — it can sting and sometimes hurt feelings. I’ve always believed that being logical is a good thing: it makes discussions clearer, provides common ground for arguments, and ensures that everyone avoids confusion or misunderstanding. Yet, it doesn’t always work out for the best.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;To keep conversations strictly logical, you sometimes have to be a little harsh. You need to disagree often, to prevent people from slipping in faulty premises. If someone makes a statistical claim, you feel compelled to check whether they’re using the right reasoning. Everyday conversations are full of hindsight bias, sweeping generalizations, and conclusions drawn from tiny datasets. Even word choice becomes something to police: is it &lt;em&gt;always&lt;/em&gt; or &lt;em&gt;sometimes&lt;/em&gt;? &lt;em&gt;All men&lt;/em&gt;, &lt;em&gt;some men&lt;/em&gt;, or &lt;em&gt;the average man&lt;/em&gt;? You get the idea.&lt;/p&gt;
+
+&lt;p&gt;In a professional setting, this kind of rigor is valuable. But with friends, it often leaves people less happy than when the conversation started — and happiness is kind of the whole point of spending time together. Among friends, we expect to be heard, understood, accepted, and even allowed to make mistakes without feeling judged. Warmth and scrutiny rarely coexist easily.&lt;/p&gt;
+
+&lt;p&gt;People naturally get defensive when criticized. And it’s difficult to face too much criticism at once. Admitting you were wrong is a healthy practice, but it’s also extremely hard to do — maybe because it’s difficult to separate our &lt;em&gt;opinions&lt;/em&gt; from our &lt;em&gt;identity&lt;/em&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Logic is an incredible tool, but friendship isn’t a debate. Perhaps the real challenge is knowing when to prioritize accuracy and when to let warmth take the lead. After all, the goal with friends isn’t to win an argument — it’s to share time and leave each other feeling lighter.&lt;/p&gt;
+
+&lt;p&gt;[On the way from Zurich to Munich]&lt;/p&gt;
+</description>
+                <pubDate>Sun, 24 Aug 2025 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/logic</link>
+                <guid isPermaLink="true">http://localhost:4000/logic</guid>
+                
+                <category>life</category>
+                
+                <category>feelings</category>
+                
+                <category>personal opinion</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>What is an accelerometer?</title>
+                <description>&lt;p&gt;An accelerometer is a device that measures linear acceleration. One of the simplest ways to build one is with a &lt;strong&gt;spring–mass system&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Imagine a car with a spring and a small test mass mounted inside. One end of the spring is fixed to the car’s body, and the other end is attached to the mass. If we orient the spring along the direction of the car’s motion, the system will respond whenever the car accelerates.&lt;br /&gt;
+&lt;!--more--&gt;
+When the engine runs, the wheels push on the ground with a force $-F$, and the ground pushes back on the car with an equal and opposite force $F$. This force accelerates the entire car—including the spring–mass system.&lt;/p&gt;
+
+&lt;p&gt;But here’s the key: the fixed end of the spring accelerates exactly with the car, while the test mass resists the change in motion, as it is not connected to the car rigidly. The spring stretches or compresses, exerting a restoring force according to Hooke’s law. The displacement of the spring, $\Delta L$, becomes the observable to measure the car’s acceleration. The Hooke’s law applied here is&lt;/p&gt;
+
+\[F - F&apos; = k \, \Delta L,\]
+
+&lt;p&gt;where $k$ is the spring constant, $F$ the total force on the system, and $F’$ the force transmitted to the test mass. By calibrating $\Delta L$ against known accelerations $a$, we can turn spring displacement into a measurement of car’s acceleration.&lt;/p&gt;
+
+&lt;h3 id=&quot;accelerometers-in-free-fall&quot;&gt;Accelerometers in free fall&lt;/h3&gt;
+
+&lt;p&gt;Here’s an interesting twist: a spring–mass accelerometer in free fall does &lt;strong&gt;not&lt;/strong&gt; measure Earth’s gravitational acceleration ($g = 9.8 \,\text{m/s^2}$). Instead, it reads &lt;strong&gt;zero&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Why? Gravitational force on an object is proportional to its mass. The gravitational force is&lt;/p&gt;
+
+\[F = G \frac{m M}{r^2},\]
+
+&lt;p&gt;with $m$ the mass of the object, $M$ Earth’s mass, $r$ the distance to Earth’s center, and $G$ the gravitational constant. Because this force is proportional to $m$, the acceleration $a = F/m$ is the same for all mass elements of the system. In other words, every part of the spring and the test mass accelerate downward together.&lt;/p&gt;
+
+&lt;p&gt;Since there’s no relative acceleration between the parts, the spring does not stretch or compress—it stays in its rest length. That’s why an accelerometer in free fall measures zero: it can only detect &lt;em&gt;proper acceleration&lt;/em&gt; (caused by forces other than gravity), not the pull of gravity itself.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;So, an accelerometer is essentially a tiny spring–mass system that compares how much a test mass lags behind its support. It’s a beautiful example of how a simple physical principle underlies much of our modern technology, from navigation systems in phones to guidance in spacecraft.&lt;/p&gt;
+</description>
+                <pubDate>Sun, 24 Aug 2025 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/accelerometer</link>
+                <guid isPermaLink="true">http://localhost:4000/accelerometer</guid>
+                
+                <category>physics</category>
+                
+                <category>navigation</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>The Illusion of Understanding</title>
+                <description>&lt;p&gt;Here’s a metaphor that came to mind while reading &lt;em&gt;The Illusion of Understanding&lt;/em&gt; by Daniel Kahneman.&lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;In our cold atom experiments, learning something about the atoms usually requires repeating the experiment many times. For example, suppose we want to study how the population of atoms in a certain state changes as we vary a parameter A over the range from A0 to A₁. We begin by setting A = A0, let the particles evolve, then measure their state. This produces a single &lt;em&gt;shot&lt;/em&gt;—essentially a snapshot of the atoms. We then increment the parameter to A = A₀ + dA, repeat the process, and continue until we reach A = A1. This gives us one scan through the parameter range. To obtain meaningful results, we repeat this scan many times, each time preparing the cold atom sample from scratch, which allows us to build up a &lt;em&gt;probability distribution&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The number of repetitions depends on the question at hand. For a typical spectroscopy experiment, where we aim to determine the energy of an atomic transition, we might repeat the experiment about 500 times. With the collected data, we fit a theoretical model to extract the relevant parameters.&lt;/p&gt;
+
+&lt;p&gt;Now suppose we’ve determined the transition energy and want to observe &lt;em&gt;Rabi oscillations&lt;/em&gt;—coherent oscillations of an atom between two energy levels. In this case, the scan parameter is the duration of the laser pulse driving the transition, and the observable is the population of atoms in one of the states. A single scan through the range might look like this:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/images/2025-08-22/20250822_single_shot_data.png&quot; width=&quot;800&quot; height=&quot;450&quot; alt=&quot;Single run data&quot; /&gt;
+    &lt;figcaption&gt;Experimental data from a single run of the experiment.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The large error bars show that we are not very confident about this data yet. If we repeat the entire scan 100 times and average the results, the data might instead look like this:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/images/2025-08-22/20250822_many_shots_data.png&quot; width=&quot;800&quot; height=&quot;450&quot; alt=&quot;Single run data&quot; /&gt;
+    &lt;figcaption&gt;Experimental data from a single run of the experiment.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Now the error bars are smaller, which is expected, since we repeated the experiment many times and are now more confident about each data point. If we fit a model to the first (single-run) dataset, we might obtain something like this:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/images/2025-08-22/20250822_single_shot_data_and_fit.png&quot; width=&quot;800&quot; height=&quot;450&quot; alt=&quot;Single run data&quot; /&gt;
+    &lt;figcaption&gt;Experimental data from a single run of the experiment.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Whereas fitting the averaged dataset gives us something more like this:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/images/2025-08-22/20250822_many_shots_data_and_fit.png&quot; width=&quot;800&quot; height=&quot;450&quot; alt=&quot;Single run data&quot; /&gt;
+    &lt;figcaption&gt;Experimental data from a single run of the experiment.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The first fit is misleading. It suggests persistent, coherent oscillations lasting for several cycles. In quantum computing terms, this would imply an exceptionally high-fidelity NOT gate (which flips one atomic state to another). However, the averaged data tells a different story: on average, our NOT gate is not nearly as good as the single run suggested. It achieves a fidelity of about 90%.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;The Illusion of Understanding&lt;/em&gt; is a section in Daniel Kahneman’s &lt;em&gt;Thinking, Fast and Slow&lt;/em&gt;. He describes a fallacy in human reasoning: our tendency to weave coherent stories from very limited information. To quote him: &lt;em&gt;“Paradoxically, it is easier to construct a coherent story when you know little.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This insight is what reminded me of the analogy above. I highly recommend this section of the book—and, in fact, the entire book.&lt;/p&gt;
+</description>
+                <pubDate>Fri, 22 Aug 2025 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/illusion-of-understanding</link>
+                <guid isPermaLink="true">http://localhost:4000/illusion-of-understanding</guid>
+                
+                <category>conceptual metaphor</category>
+                
+                <category>books</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Inside view and outside view</title>
+                <description>&lt;p&gt;As a solution to “planning fallacy”, Daniel Kahneman introduces “outside view” in his book &lt;em&gt;Thinking: fast and slow&lt;/em&gt;. I first heard about it in a podcast by Azarakhsh Mokri, an Iranian psychiatrist.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Planning fallacy is when we plan but don’t make it as planned. It is when our estimates don’t come out right. We estimate that it takes two weeks to prepare for the coming exam, but it turns out taking two months and we just postpone it, or else settle for a lower outcome. Or we estimate that writing the thesis takes x days and it ends up taking 3x days. You get the idea.&lt;/p&gt;
+
+&lt;p&gt;It turns out that it is negatively correlated with confidence. If we plan every detail, we think we are in charge, and it gives us more confidence. If&lt;/p&gt;
+
+&lt;p&gt;exam reading
+writing thesis
+whether our business is gonna succeed
+when are we gonna have a quantum computer
+when are we gonna go to Mars&lt;/p&gt;
+</description>
+                <pubDate>Wed, 20 Aug 2025 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/inside-view-and-outside-view</link>
+                <guid isPermaLink="true">http://localhost:4000/inside-view-and-outside-view</guid>
+                
+                <category>books</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Question</title>
+                <description>&lt;p&gt;Imagine you’re an expert in field A. Is it better to apply the tools you know from your field in another field, say B, or to find out for tools from other fields, say B’s, and apply them to the problems in your field?&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;In other words, is it better to know the tools very well or the problems very well?&lt;/p&gt;
+
+&lt;p&gt;Of course it is ideal to know both of them very well. But if you have to choose …&lt;/p&gt;
+</description>
+                <pubDate>Tue, 19 Aug 2025 21:20:02 +0200</pubDate>
+                <link>http://localhost:4000/Question</link>
+                <guid isPermaLink="true">http://localhost:4000/Question</guid>
+                
+                <category>thoughts</category>
+                
+                
+                <category>blog</category>
+                
+            </item>
+        
+            <item>
+                <title>Manifestations of resonance!</title>
+                <description>&lt;p&gt;In ping pong, sometimes a “resonance” happens. A condition where the amplitude of oscillations keeps growing where the amplitude refers to the distance that the players have with the table. Its like a amusement park swing where if you drive it on the natural resonance, it can grow in oscillation amplitude. It is also like a spring-mass system that if you drive it on the natural frequency, it increases its length indefinitely (well…, limited by the length of the spring, but you get the idea!).&lt;/p&gt;
+
+&lt;!--more--&gt;
+</description>
+                <pubDate>Tue, 19 Aug 2025 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/resonance-ping-pong</link>
+                <guid isPermaLink="true">http://localhost:4000/resonance-ping-pong</guid>
+                
+                <category>physics</category>
+                
+                <category>fun</category>
+                
+                
+                <category>blog</category>
+                
+            </item>
+        
+            <item>
+                <title>Eibsee experience</title>
+                <description>&lt;p&gt;Today I went to Lake Eibsee, a beautiful lake in southern Germany, located nearly 1,000 meters above sea level. It sits at the base of Zugspitze, Germany’s highest peak. The lake has this lovely greenish-blue color that I really liked.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;div style=&quot;display: flex; justify-content: center; gap: 1em;&quot;&gt;
+  &lt;img src=&quot;/images/2025-08-09/2025-08-09-eibsee.jpeg&quot; alt=&quot;Eibsee&quot; width=&quot;400&quot; /&gt;
+  &lt;img src=&quot;/images/2025-08-09/2025-08-09-eibsee-2.jpeg&quot; alt=&quot;Eibsee 2&quot; width=&quot;400&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+According to Wikipedia, its name comes from yew trees that used to grow nearby in large numbers — though now, maybe fewer. I also found it interesting that the lake is privately owned. I’m not quite sure what that means financially, though.&lt;/p&gt;
+
+&lt;p&gt;On the way to Eibsee from the nearby town of Garmisch-Partenkirchen, I saw a bus stop called “Grainau Schwarzenkopfweg.” In English, that means “Grainau Black Head Way.” When I first saw the word “Schwarzenkopf” (black head), I thought to myself, “How racist!” I know, that was a very simplistic reaction! But honestly, it just popped into my mind because I’d only heard that phrase used before in the context of referring to foreigners from the Middle East and rest of Asia. Later, I realized that “Schwarzenkopf” actually refers to some black rocks along the route that give the area a unique look.&lt;/p&gt;
+</description>
+                <pubDate>Sat, 09 Aug 2025 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/Eibsee</link>
+                <guid isPermaLink="true">http://localhost:4000/Eibsee</guid>
+                
+                <category>wanderings</category>
+                
+                <category>storytelling</category>
+                
+                <category>diary</category>
+                
+                <category>Munich</category>
+                
+                
+                <category>blog</category>
+                
+            </item>
+        
+            <item>
+                <title>Waaber clay creatures</title>
+                <description>&lt;p&gt;Today I learned about Richard Webber — an animator and director who makes funny little clay creatures. For some reason, I really connect with his work. I’m amazed at how simple yet expressive his creations are. Here’s one such clay work (screenshot from his website https://waaber.com):&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2025-08-07/2025-08-07-waaber-funny-clay.png&quot; alt=&quot;Screenshot description&quot; width=&quot;400&quot; style=&quot;display:block; margin:0 auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m thinking about getting one of them printed on a T-shirt for myself!&lt;/p&gt;
+</description>
+                <pubDate>Thu, 07 Aug 2025 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/waaber</link>
+                <guid isPermaLink="true">http://localhost:4000/waaber</guid>
+                
+                <category>funny things</category>
+                
+                <category>storytelling</category>
+                
+                <category>diary</category>
+                
+                
+                <category>blog</category>
+                
+            </item>
+        
+            <item>
+                <title>Last week&apos;s seminar on quantum stuff</title>
+                <description>&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;Last week I attended a seminar on quantum science with Rydberg atoms and molecules. It was held in Bad Honnef which is a town in the west of Germany and next to the Rhine river. The venue was a castle with a beautiful interior design. One of the nice things was the piano in one of the rooms. Sometimes one of the seminar attendees would feel like playing it which created a nice feeling.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;div style=&quot;display: flex; justify-content: center; gap: 1em;&quot;&gt;
+  &lt;img src=&quot;/images/2025-08-03/2025-08-03-WH-seminar-castle-outside.jpeg&quot; alt=&quot;WH seminar castle outside&quot; width=&quot;300&quot; /&gt;
+  &lt;img src=&quot;/images/2025-08-03/2025-08-03-WH-seminar-castle-inside.jpeg&quot; alt=&quot;WH seminar castle inside&quot; width=&quot;300&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;venue-and-demographics&quot;&gt;Venue and demographics&lt;/h2&gt;
+&lt;p&gt;There were somewhere between 40 and 50 students (mostly PhD students and a few Postdocs) and close to 30 lecturers. Classifications: The talks were both theoretical and experimental and also about atoms or molecules.&lt;/p&gt;
+
+&lt;p&gt;I’m more on the introverted side of the spectrum and usually in seminars like this, don’t interact much with people. But this time I changed the status quo by doing quite a few things differently. I think what helped me break the normal routine was for one that I’m feeling more motivated with my work during the past year or so. And secondly that I’m now more thinking about post-PhD ventures. It is not that I didn’t think about the future before. I did. But maybe not concretely enough.&lt;/p&gt;
+
+&lt;p&gt;Over the week of the seminar, we were served 18 meals. I tried maximizing my exposure to different people by sitting on tables with different people in every meal. I also tried approaching people and talking to them in coffee breaks and poster sessions.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-difficulty-of-talking-to-experts&quot;&gt;The difficulty of talking to experts&lt;/h2&gt;
+&lt;p&gt;For me, there is a conversation that I have with other PhD students and that is easy, especially if they have a poster with them. I just go to them and ask about the details of their work. They’re also usually happy to go deep and explain what they’re doing. Because when you’re specializing in some niche, it is not very easy to find many people who are willing to and capable of listening to and following your story. The complexity of the conversation is also such that I can follow it very well and even guide it to specific directions with suitable prompts.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, there is the conversation that I have with experts. It is hard to talk to experts. You want to make a good impression and not make a fool of yourself. Therefore, you need to come up with nice prompts and that is difficult. Then you need to follow closely what they’re saying because otherwise it is difficult to come up with proper follow ups. It requires a certain&lt;/p&gt;
+
+&lt;h2 id=&quot;phase-space-of-attendees&quot;&gt;Phase space of attendees&lt;/h2&gt;
+&lt;p&gt;I think it is possible to divide people attending in a seminar in 4 groups based on two thresholded parameters. One parameter is the amount of knowledge that they have in an area that I care about. The second parameter is how approachable they are. I think of such a “phase space” as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2025-08-03/2025-08-03-people-phase-space.png&quot; alt=&quot;Screenshot description&quot; style=&quot;width:50%; display:block; margin:0 auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My goal in the seminar was to find people in the top right quadrant.&lt;/p&gt;
+</description>
+                <pubDate>Sun, 03 Aug 2025 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/Bad-Honnef-seminar</link>
+                <guid isPermaLink="true">http://localhost:4000/Bad-Honnef-seminar</guid>
+                
+                <category>diary</category>
+                
+                <category>essay like</category>
+                
+                <category>quantum</category>
+                
+                
+                <category>blog</category>
+                
+            </item>
+        
+            <item>
+                <title>Fermionic Quantum Computing</title>
+                <description>&lt;p&gt;As is nowadays quoted in almost every introductory session on quantum computing, it was Feynman’s dream/idea to simulate quantum behaviour with systems that themselves bahave quantum mechanically. Of course, everything is quantum mechanical at its core. However, what is meant here is observable and controllable quantum behaviour.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;One of the most promising problems a quantum computer can help solve is to simulate molecular dynamics. There are many places you would want to do that. To calculate binding affinities in drug discovery, or to understand the catalysis of certain chemical reactions like nitrogen fixation. In these problems, the main task is usually&lt;/p&gt;
+
+&lt;p&gt;Physical realizations of quantum computers are being pursued with different approaches, namely with superconducting circuits, trapped ions and trapped neutral atoms. Regardless of the technolgy, the common modality of processing quantum information which is pursued as of now is qubit based.&lt;/p&gt;
+
+&lt;p&gt;I recently came across this work:&lt;/p&gt;
+
+&lt;p&gt;https://www.pnas.org/doi/10.1073/pnas.2304294120&lt;/p&gt;
+
+&lt;p&gt;The authors discuss the idea of fermionic quantum computing. This can be seen in light of the famous Feynman’s dream to simulate quantum behaviour using controllable “quantum” systems. The fermionic quantum computing idea is to use “fermionic” quantum systems to simulate “fermionic” quantum systems.&lt;/p&gt;
+
+&lt;p&gt;Here is the idea. The more common modality of a quantum computer is one based on a number of qubits and a&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;normal: qubit based&lt;/li&gt;
+  &lt;li&gt;how simulate fermions with it?: mapping -&amp;gt; overhead&lt;/li&gt;
+  &lt;li&gt;now: fermion based&lt;/li&gt;
+  &lt;li&gt;why we need?: fermions have antisymmetry built in&lt;/li&gt;
+  &lt;li&gt;overhead is gone&lt;/li&gt;
+  &lt;li&gt;what makes it possible?: neutral atoms, in contrast with IR or microwave photons used in other QC realizations, can be fermion or boson. -&amp;gt; use fermionic atoms to hardwire fermionic statistics&lt;/li&gt;
+  &lt;li&gt;why exciting? can simulate fermionic systems: basically all chemistry/material science and biology are fermionic systems!&lt;/li&gt;
+  &lt;li&gt;how to implement? Electronic structure Hamiltonian (BO approx) -&amp;gt; 2-3 general operators enough -&amp;gt; Trotter -&amp;gt; implement one with shuttle/merge and another with Rydberg.&lt;/li&gt;
+  &lt;li&gt;catch: how about QEC? another paper discusses -&amp;gt; brings the overhead back (todo check this better)&lt;/li&gt;
+&lt;/ul&gt;
+
+\[\hat{H}=\sum_{ij}h_{ij}\hat{c}^{\dagger}_i \hat{c}_j + \sum_{ijkl}g_{ijkl}\hat{c}^{\dagger}_i \hat{c}^{\dagger}_j \hat{c}_k  \hat{c}_l\]
+
+&lt;p&gt;The paper is from 2023, but the idea goes back to earlier than that. Already in 2019, Bravyi and Kitaev showed that we can use&lt;/p&gt;
+</description>
+                <pubDate>Wed, 09 Jul 2025 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/fermionic-quantum-computing</link>
+                <guid isPermaLink="true">http://localhost:4000/fermionic-quantum-computing</guid>
+                
+                <category>Quantum computing</category>
+                
+                <category>Paper summary</category>
+                
+                
+                <category>blog</category>
+                
+            </item>
+        
+    </channel>
+</rss>

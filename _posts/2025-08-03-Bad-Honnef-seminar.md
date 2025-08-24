@@ -1,0 +1,38 @@
+---
+title: "Last week's seminar on quantum stuff"
+categories:
+  - blog
+tags:
+  - diary
+  - essay like
+  - quantum
+---
+
+## Intro
+Last week I attended a seminar on quantum science with Rydberg atoms and molecules. It was held in Bad Honnef which is a town in the west of Germany and next to the Rhine river. The venue was a castle with a beautiful interior design. One of the nice things was the piano in one of the rooms. Sometimes one of the seminar attendees would feel like playing it which created a nice feeling. 
+
+<!--more-->
+
+<div style="display: flex; justify-content: center; gap: 1em;">
+  <img src="{{ '/images/2025-08-03/2025-08-03-WH-seminar-castle-outside.jpeg' | relative_url }}" alt="WH seminar castle outside" width="300">
+  <img src="{{ '/images/2025-08-03/2025-08-03-WH-seminar-castle-inside.jpeg' | relative_url }}" alt="WH seminar castle inside" width="300">
+</div>
+
+## Venue and demographics
+There were somewhere between 40 and 50 students (mostly PhD students and a few Postdocs) and close to 30 lecturers. Classifications: The talks were both theoretical and experimental and also about atoms or molecules. 
+
+I'm more on the introverted side of the spectrum and usually in seminars like this, don't interact much with people. But this time I changed the status quo by doing quite a few things differently. I think what helped me break the normal routine was for one that I'm feeling more motivated with my work during the past year or so. And secondly that I'm now more thinking about post-PhD ventures. It is not that I didn't think about the future before. I did. But maybe not concretely enough.
+
+Over the week of the seminar, we were served 18 meals. I tried maximizing my exposure to different people by sitting on tables with different people in every meal. I also tried approaching people and talking to them in coffee breaks and poster sessions.
+
+## The difficulty of talking to experts
+For me, there is a conversation that I have with other PhD students and that is easy, especially if they have a poster with them. I just go to them and ask about the details of their work. They're also usually happy to go deep and explain what they're doing. Because when you're specializing in some niche, it is not very easy to find many people who are willing to and capable of listening to and following your story. The complexity of the conversation is also such that I can follow it very well and even guide it to specific directions with suitable prompts.
+
+On the other hand, there is the conversation that I have with experts. It is hard to talk to experts. You want to make a good impression and not make a fool of yourself. Therefore, you need to come up with nice prompts and that is difficult. Then you need to follow closely what they're saying because otherwise it is difficult to come up with proper follow ups. It requires a certain 
+
+## Phase space of attendees
+I think it is possible to divide people attending in a seminar in 4 groups based on two thresholded parameters. One parameter is the amount of knowledge that they have in an area that I care about. The second parameter is how approachable they are. I think of such a "phase space" as follows:
+
+<img src="{{ '/images/2025-08-03/2025-08-03-people-phase-space.png' | relative_url }}" alt="Screenshot description" style="width:50%; display:block; margin:0 auto;">
+
+My goal in the seminar was to find people in the top right quadrant.
