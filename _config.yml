@@ -18,7 +18,7 @@ description: "Notes, stories, and experiments in writing out loud. Personal Blog
 baseurl: "/incoherentterms"
 
 # The base hostname & protocol of your site for where absolute urls are needed.
-url: "https://username.github.io"
+url: "https://amin7tsix.github.io"
 
 # Favicon
 favicon: images/favicon.png
