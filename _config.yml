@@ -15,10 +15,10 @@ title: "InCoherentTerms"
 description: "Notes, stories, and experiments in writing out loud. Personal Blog of Amin Zamani"
 
 # The subpath of your site, e.g. /blog, for generating urls.
-baseurl: ""
+baseurl: "/incoherentterms"
 
 # The base hostname & protocol of your site for where absolute urls are needed.
-url: "https://scriptor-jekyll.netlify.com"
+url: "https://username.github.io"
 
 # Favicon
 favicon: images/favicon.png
