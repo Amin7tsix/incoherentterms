@@ -5,8 +5,8 @@
         <description>Notes, stories, and experiments in writing out loud. Personal Blog of Amin Zamani</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 24 Aug 2025 20:27:30 +0200</pubDate>
-        <lastBuildDate>Sun, 24 Aug 2025 20:27:30 +0200</lastBuildDate>
+        <pubDate>Sun, 24 Aug 2025 22:50:03 +0200</pubDate>
+        <lastBuildDate>Sun, 24 Aug 2025 22:50:03 +0200</lastBuildDate>
         <generator>Jekyll v4.3.4</generator>
         
             <item>
@@ -31,8 +31,6 @@ The following reflects my personal opinion, though I avoid repeating &lt;em&gt;I
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 
 &lt;p&gt;Logic is an incredible tool, but friendship isn’t a debate. Perhaps the real challenge is knowing when to prioritize accuracy and when to let warmth take the lead. After all, the goal with friends isn’t to win an argument — it’s to share time and leave each other feeling lighter.&lt;/p&gt;
-
-&lt;p&gt;[On the way from Zurich to Munich]&lt;/p&gt;
 </description>
                 <pubDate>Sun, 24 Aug 2025 00:00:00 +0200</pubDate>
                 <link>http://localhost:4000/logic</link>
