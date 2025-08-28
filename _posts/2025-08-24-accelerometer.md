@@ -33,4 +33,6 @@ Since there’s no relative acceleration between the parts, the spring does not 
 
 ---
 
-So, an accelerometer is essentially a tiny spring–mass system that compares how much a test mass lags behind its support. It’s a beautiful example of how a simple physical principle underlies much of our modern technology, from navigation systems in phones to guidance in spacecraft.
+### Why this matters?
+
+An accelerometer is essentially a tiny spring–mass system that compares how much a test mass lags behind its support. It’s a beautiful example of how a simple physical principle underlies much of our modern technology, from navigation systems in phones to guidance in spacecraft.
