@@ -3,8 +3,21 @@ layout: post
 title: "What is an accelerometer?"
 description: "Spring-mass accelerometer working principle"
 date: 2025-08-24
+# feature_image: images/2025-08-24/20250824-Acelerometro_wikipedia.JPG
 tags: [physics, navigation]
 ---
+
+<div style="text-align: center;">
+<figure>
+    <img src="images/2025-08-24/20250824-Acelerometro_wikipedia.JPG" 
+    width="300" 
+    height="150"
+    alt="From wikipedia"
+    class="center">
+    <figcaption>Accelerometer from wikipedia</figcaption>
+</figure>
+</div>
+
 
 An accelerometer is a device that measures linear acceleration. One of the simplest ways to build one is with a **spring–mass system**.  
 
