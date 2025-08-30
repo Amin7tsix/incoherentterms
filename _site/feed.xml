@@ -5,20 +5,56 @@
         <description>Notes, stories, and experiments in writing out loud. Personal Blog of Amin Zamani</description>
         <link>http://localhost:4000/incoherentterms/</link>
         <atom:link href="http://localhost:4000/incoherentterms/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 28 Aug 2025 22:43:17 +0200</pubDate>
-        <lastBuildDate>Thu, 28 Aug 2025 22:43:17 +0200</lastBuildDate>
+        <pubDate>Sat, 30 Aug 2025 19:10:06 +0200</pubDate>
+        <lastBuildDate>Sat, 30 Aug 2025 19:10:06 +0200</lastBuildDate>
         <generator>Jekyll v4.3.4</generator>
+        
+            <item>
+                <title>Deciding what to do is hard</title>
+                <description>&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;images/2025-08-30/20250830_deciding_what_to_do.png&quot; width=&quot;600&quot; alt=&quot;Chatgpt&quot; class=&quot;center&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+Somewhere in the Netflix series &lt;em&gt;Dark&lt;/em&gt;, there’s a scene with an old man from the 19th century who has built an entire laboratory in his garage to create a time machine. What struck me wasn’t the machine itself, but where he got his motivation. His father had once told him about time travel, and he decided to devote his whole life to it.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Of course, this is fiction, and I don’t take it literally. But it reminded me of a broader theme: deciding what to do with your life feels much harder today than it might have in those days. With the Internet and social media, we now know a lot about many people. We know what can be achieved within 5 or 10 years and that information increases our perceived opportunity cost of choosing any specific path. The more we know, the higher the bar gets.&lt;/p&gt;
+
+&lt;p&gt;We learn from Daniel Kahneman and others that decision making pulls from the same mental resources as solving math problems. It’s cognitively expensive. Even in a supermarket, debating whether to buy the chocolate bar by the cashier uses up energy. When it comes to more important things, like deciding what to focus on over the next 10 years of your life, which project to commit to, or how to sort out your values, it becomes even harder.&lt;/p&gt;
+
+&lt;p&gt;Even starting this blog came with hesitation. If I write, it means I’m not doing something else: reading books, coding, diving into research papers, or less technical things like spending time with family. That’s the opportunity cost. And yet, there are things to gain: the pleasure of writing, the discipline of committing to a long-term personal project, and maybe a few insights along the way. The real struggle is figuring out how to weigh these trade-offs.&lt;/p&gt;
+
+&lt;p&gt;The worst part of indecision is the stagnation it breeds. You can easily drift into doing nothing at all, simply because no option feels convincingly better than the rest. It becomes easier to convince yourself to do something when there are &lt;em&gt;external forces&lt;/em&gt; and &lt;em&gt;boundary conditions&lt;/em&gt;. The &lt;em&gt;external force&lt;/em&gt; is the more obvious one—like when you have to do homework for school. By &lt;em&gt;boundary conditions&lt;/em&gt; I mean when you’ve already gained momentum in a specific direction. Then the choice feels less like a dilemma and more like a continuation.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;what-now&quot;&gt;What now?&lt;/h3&gt;
+
+&lt;p&gt;Maybe the point isn’t to find the perfect decision but to execute and iterate. Start doing something and accept that every choice comes with opportunity costs, and that’s okay. Once you start, you build up momentum and your inertia takes you forward.&lt;/p&gt;
+</description>
+                <pubDate>Sat, 30 Aug 2025 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/incoherentterms/deciding-what-to-do-is-hard</link>
+                <guid isPermaLink="true">http://localhost:4000/incoherentterms/deciding-what-to-do-is-hard</guid>
+                
+                <category>life notes</category>
+                
+                <category>reflections</category>
+                
+                
+            </item>
         
             <item>
                 <title>When Logic Hurts</title>
                 <description>&lt;div style=&quot;text-align: center;&quot;&gt;
 &lt;figure&gt;
     &lt;img src=&quot;images/2025-08-24/20250824_logic_hurts_ChatGPT_Image.png&quot; width=&quot;600&quot; alt=&quot;From wikipedia&quot; class=&quot;center&quot; /&gt;
-    &lt;figcaption&gt;Chatgpt&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/div&gt;
-
-&lt;p&gt;When talking with friends, I’ve noticed a certain bitterness in strictly logical, precise speech — it can sting and sometimes hurt feelings. I’ve always believed that being logical is a good thing: it makes discussions clearer, provides common ground for arguments, and ensures that everyone avoids confusion or misunderstanding. Yet, it doesn’t always work out for the best.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+When talking with friends, I’ve noticed a certain bitterness in strictly logical, precise speech — it can sting and sometimes hurt feelings. I’ve always believed that being logical is a good thing: it makes discussions clearer, provides common ground for arguments, and ensures that everyone avoids confusion or misunderstanding. Yet, it doesn’t always work out for the best.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -398,27 +434,6 @@ When the engine runs, the wheels push on the ground with a force $-F$, and the g
                 
                 <category>Template</category>
                 
-                
-            </item>
-        
-            <item>
-                <title>Post: Link</title>
-                <description>&lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;And this is how a quote looks.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Some &lt;a href=&quot;#&quot;&gt;link&lt;/a&gt; can also be shown.&lt;/p&gt;
-</description>
-                <pubDate>Sun, 07 Mar 2010 00:00:00 +0100</pubDate>
-                <link>http://localhost:4000/incoherentterms/post-link</link>
-                <guid isPermaLink="true">http://localhost:4000/incoherentterms/post-link</guid>
-                
-                <category>Template</category>
-                
-                
-                <category>Blog</category>
                 
             </item>
         
