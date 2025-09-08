@@ -5,9 +5,50 @@
         <description>Notes, stories, and experiments in writing out loud. Personal Blog of Amin Zamani</description>
         <link>http://localhost:4000/incoherentterms/</link>
         <atom:link href="http://localhost:4000/incoherentterms/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 31 Aug 2025 15:41:54 +0200</pubDate>
-        <lastBuildDate>Sun, 31 Aug 2025 15:41:54 +0200</lastBuildDate>
+        <pubDate>Mon, 08 Sep 2025 09:50:28 +0200</pubDate>
+        <lastBuildDate>Mon, 08 Sep 2025 09:50:28 +0200</lastBuildDate>
         <generator>Jekyll v4.3.4</generator>
+        
+            <item>
+                <title>BlackBerry (2023)</title>
+                <description>&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;images/2025-09-08/20250908_black_berry.jpeg&quot; width=&quot;500&quot; class=&quot;center&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Spoiler alert&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I watched &lt;em&gt;BlackBerry&lt;/em&gt; yesterday. It is a movie based on what happened to BlackBerry, the cell phone manufacturing business. I tend to enjoy movies based on real stories. They can be both amusing and informative. I don’t know much about BlackBerry’s business other than what the movie presented. I recommend watching it to people who enjoy thinking about the working style and growth dynamics of technology startups.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;I don’t intend to comment on the cinematography of the movie. I spent a pleasant 2 hours watching it and that’s sufficient. It motivated me to refresh my memory of Paul Graham’s &lt;em&gt;Founder Mode&lt;/em&gt; essay. Graham writes “C-level execs, as a class, include some of the most skillful liars in the world” :) I remembered this when Jim Balsillie lied about liking Hockey at a lunch meeting with a potential acquirer to avoid disrupting the coherence of their momentary like-mindedness.&lt;/p&gt;
+
+&lt;p&gt;Another alarming scene for me was the deal that Jim Balsillie initially offered to Mike Lazaridis and Doug Fregin — 50% of the company and becoming its CEO in exchange of putting it on the right track. It is of course part of reality that the actual makers of the intellectual property are not always the ones who enjoy its potential financial value. This is especially the case in academic research groups. But it sometimes happens in industry settings as well. It’s similar to hydroelectric energy generation. The potential energy is right there behind the dam, but it needs a turbine to cash it.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;images/2025-09-08/20250908_hydroelectric_energy.avif&quot; width=&quot;500&quot; class=&quot;center&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;For people who enjoy working on the tech, the story is a reminder that investing in softer skills can be just as important for long-term success.&lt;/p&gt;
+</description>
+                <pubDate>Mon, 08 Sep 2025 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/incoherentterms/blackberry</link>
+                <guid isPermaLink="true">http://localhost:4000/incoherentterms/blackberry</guid>
+                
+                <category>writing practice</category>
+                
+                <category>storytelling</category>
+                
+                
+            </item>
         
             <item>
                 <title>Street painting</title>
@@ -372,56 +413,6 @@ When the engine runs, the wheels push on the ground with a force $-F$, and the g
                 <pubDate>Thu, 03 Jan 2019 00:00:00 +0100</pubDate>
                 <link>http://localhost:4000/incoherentterms/basic-rules-for-walking-in-the-mountains</link>
                 <guid isPermaLink="true">http://localhost:4000/incoherentterms/basic-rules-for-walking-in-the-mountains</guid>
-                
-                <category>Template</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>How to Set Up Your New iPhone 6 the Right Way</title>
-                <description>&lt;p&gt;The &lt;strong&gt;iPhone 6&lt;/strong&gt; and &lt;strong&gt;iPhone 6 Plus&lt;/strong&gt; are &lt;a href=&quot;https://en.wikipedia.org/wiki/Smartphone&quot;&gt;smartphones&lt;/a&gt; designed and marketed by Apple Inc. The devices are part of the iPhone series and were unveiled on September 9, 2014, and released on September 19, 2014. The iPhone 6 and iPhone 6 Plus jointly serve as successors to the iPhone 5C and iPhone 5S.&lt;/p&gt;
-
-&lt;p&gt;The iPhone 6 and iPhone 6 Plus include a number of changes over their predecessor, including models with larger 4.7 and 5.5 inches (120 and 140 mm) displays, a faster processor, upgraded cameras, improved LTE and Wi-Fi connectivity and support for a near field communications-based mobile payments offering.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Pre-orders of the iPhone 6 and iPhone 6 Plus exceeded four million within its first 24 hours of availability—an Apple record. More than ten million iPhone 6 and iPhone 6 Plus devices were sold in the first three days, another Apple record.&lt;/p&gt;
-
-&lt;p&gt;On September 9, 2015, the 128 GB version of both the iPhone 6 and iPhone 6 Plus was discontinued along with the gold version of both phones, but the 16 GB and 64 GB versions of the iPhone 6 and iPhone 6 Plus in silver and space gray remain available for sale at a reduced price due to the release of the &lt;a href=&quot;https://en.wikipedia.org/wiki/IPhone_6S&quot;&gt;iPhone 6S and iPhone 6S Plus flagship devices&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;history&quot;&gt;History&lt;/h2&gt;
-
-&lt;p&gt;Centered around the device’s size; the majority of iPhone models have used 3.5-inch displays—which are smaller than screens used by flagship phones from competitors. The last change in size for the iPhone series came with the iPhone 5; the phone and its immediate successors featured a display that was taller, but the same width as prior models, measuring at 4 inches diagonally. Following Apple’s loss in smartphone market share to companies producing phones with larger displays reports as early as January 2014 suggested that Apple was preparing to launch new iPhone models with larger, 4.7-inch and 5.5-inch displays. Reports prior to its unveiling also speculated the possibility that Apple would use a new iPhone model to introduce a mobile payments platform using near-field communications—a technology that has been incorporated into many Android phones, but has experienced a low adoption rate among users.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;What we want to do is make a leapfrog product that is way smarter than any mobile device has ever been, and super-easy to use. This is what iPhone is. OK? So, we’re going to reinvent the phone. &lt;cite&gt;- Steve Jobs, 2007.&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The iPhone 6 and iPhone 6 Plus were officially unveiled during a press event at the Flint Center for Performing Arts in Cupertino, California on September 9, 2014. The event featured other previously-rumored product announcements by Apple alongside the new iPhone models, including the &lt;a href=&quot;https://en.wikipedia.org/wiki/Apple_Pay&quot;&gt;Apple Pay&lt;/a&gt; mobile payment platform, and the company’s entry into the wearable computing market with the Apple Watch smart watch.&lt;/p&gt;
-
-&lt;figure class=&quot;image-card width-full caption&quot;&gt;
-  &lt;img src=&quot;/images/iphone-in-hand.jpg&quot; alt=&quot;Apple&quot; /&gt;
-  
-  &lt;figcaption class=&quot;caption-text&quot;&gt;iPhone 6&lt;/figcaption&gt;
-  
-&lt;/figure&gt;
-
-&lt;p&gt;The iPhone 6 and iPhone 6 Plus were unveiled on September 9, 2014 and released on September 19, 2014; pre-orders began on September 12, 2014, with the iPhone 6 starting at US$649 and the iPhone 6 Plus starting at US$749. In China, where the iPhone 5S and 5C were the first models in the iPhone series to be released in the country on the same day as their international launch, Apple notified local wireless carriers that it would be unable to release the iPhone 6 and iPhone 6 Plus in China on the 19th because there were “details which are not ready”; local media reported that the devices had not yet been approved by the Ministry of Industry and Information Technology, and earlier in the year, a news report by state broadcaster China Central Television alleged that iPhone devices were a threat to national security because iOS 7’s “frequent locations” function could expose “state secrets.”&lt;/p&gt;
-
-&lt;p&gt;On August 2015 Apple admitted that some iPhone 6 Plus may have faulty cameras that could be causing photos to look blurry and initiated a replacement program.&lt;/p&gt;
-
-&lt;p&gt;On September 9, 2015 the 128 GB version of both the iPhone 6 and iPhone 6 Plus was discontinued along with the gold version of both phones, the 16 GB and 64 GB versions of the iPhone 6 and iPhone 6 Plus in silver and space gray remain available for sale at a reduced price due to the release of the iPhone 6S and iPhone 6S Plus flagship devices.&lt;/p&gt;
-
-&lt;h2 id=&quot;specifications&quot;&gt;Specifications&lt;/h2&gt;
-
-&lt;p&gt;The design of the iPhone 6 and iPhone 6 Plus are influenced by that of the iPad Air with a glass front that is curved around the edges of the display, and an aluminum rear that contains two plastic strips for the antenna. Both models come in gold, silver, and “space gray” finishes. The iPhone 6 has a thickness of 6.9 millimetres (0.27 in), while the iPhone 6 Plus is 7.1 mm (0.28 in) in thickness; both are thinner than the iPhone 5S and iPhone 5C, with the iPhone 6 being Apple’s thinnest phone to date. The most significant changes to the iPhone 6 and iPhone 6 Plus are its displays; both branded as “Retina HD Display” and “ion-strengthened”, the iPhone 6 display is 4.7 inches in size with a 16:9 resolution of 1334x750 (326 PPI, minus one row of pixels), while the iPhone 6 Plus includes a 5.5-inch 1920x1080 (1080p) display (401 PPI). The displays use a multiple-domain LCD panel, dubbed “dual-domain pixels”; the RGB pixels themselves are skewed in pattern, so that every pixel is seen from a different angle. This technique helps improve the viewing angles of the display.&lt;/p&gt;
-
-&lt;p&gt;To accommodate the larger physical size of the iPhone 6 and iPhone 6 Plus, the power button was moved to the side of the phone instead of the top to improve its accessibility. The iPhone 6 features a 6.91 Wh (1810 mAh) battery, while the iPhone 6 Plus features a 11.1 Wh (2915 mAh) battery. Unlike the previous model, the rear-facing camera is not flush with the rear of the device, and has a slight “bulge” around the lens. It has a dual-core 1.4 GHz Cyclone processor (ARM v8-based). [ &lt;a href=&quot;https://en.wikipedia.org/wiki/IPhone_6&quot;&gt;Source&lt;/a&gt; ]&lt;/p&gt;
-</description>
-                <pubDate>Wed, 02 Jan 2019 00:00:00 +0100</pubDate>
-                <link>http://localhost:4000/incoherentterms/set-up-your-new-iphone-6-the-Right-Way</link>
-                <guid isPermaLink="true">http://localhost:4000/incoherentterms/set-up-your-new-iphone-6-the-Right-Way</guid>
                 
                 <category>Template</category>
                 
