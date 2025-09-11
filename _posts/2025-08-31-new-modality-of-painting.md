@@ -15,4 +15,4 @@ tags: [life notes, storytelling]
 </div>
 <br>
 
-Sometimes, when walking in the streets of Munich, I see interesting teasers. Yesterday, I saw a new modality of how to paint a picture!
+Sometimes, when walking in the streets of Munich, I see interesting teasers. This time, I saw a new modality of how to paint a picture!
