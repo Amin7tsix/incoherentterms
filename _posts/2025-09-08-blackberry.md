@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "BlackBerry (2023)"
+title: "Mental shotgun after watching BlackBerry"
+last_modified_at: 2025-09-20
 description: "My comments after watching BlackBerry (2023)"
 date: 2025-09-08
 tags: [writing practice, storytelling]
@@ -9,7 +10,7 @@ tags: [writing practice, storytelling]
 <div style="text-align: center;">
 <figure>
     <img src="{{ site.baseurl }}/images/2025-09-08/20250908_black_berry.jpeg" 
-    width="250"
+    width="400"
     class="center">
 </figure>
 </div>
@@ -17,7 +18,7 @@ tags: [writing practice, storytelling]
 
 > Spoiler alert
 
-I watched *BlackBerry* yesterday. It is a movie based on what happened to BlackBerry, the cell phone manufacturing business. I tend to enjoy movies based on real stories. They can be both amusing and informative. I don't know much about BlackBerry's business other than what the movie presented. I recommend watching it to people who enjoy thinking about the working style and growth dynamics of technology startups. 
+I watched *BlackBerry* (2023) yesterday. It is a movie based on what happened to BlackBerry, the cell phone manufacturing business. I tend to enjoy movies based on real stories. They can be both amusing and informative. I don't know much about BlackBerry's business other than what the movie presented. I recommend watching it to people who enjoy thinking about the working style and growth dynamics of technology startups. 
 
 <!--more-->
 
@@ -35,3 +36,5 @@ Another alarming scene for me was the deal that Jim Balsillie initially offered 
 <br>
 
 For people who enjoy working on the tech, the story is a reminder that investing in softer skills can be just as important for long-term success.
+
+*P.S.* I borrowed the phrase *mental shotgun* from Daniel Kahneman to refer to the many scattered thoughts that come to mind following a trigger.

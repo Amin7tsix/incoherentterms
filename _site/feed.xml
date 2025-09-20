@@ -5,8 +5,8 @@
         <description>Blog of Amin Zamani—Notes, stories, and experiments in writing out loud</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 20 Sep 2025 12:00:21 +0200</pubDate>
-        <lastBuildDate>Sat, 20 Sep 2025 12:00:21 +0200</lastBuildDate>
+        <pubDate>Sat, 20 Sep 2025 12:13:31 +0200</pubDate>
+        <lastBuildDate>Sat, 20 Sep 2025 12:13:31 +0200</lastBuildDate>
         <generator>Jekyll v4.3.4</generator>
         
             <item>
@@ -44,10 +44,10 @@
             </item>
         
             <item>
-                <title>BlackBerry (2023)</title>
+                <title>Mental shotgun after watching BlackBerry</title>
                 <description>&lt;div style=&quot;text-align: center;&quot;&gt;
 &lt;figure&gt;
-    &lt;img src=&quot;/images/2025-09-08/20250908_black_berry.jpeg&quot; width=&quot;250&quot; class=&quot;center&quot; /&gt;
+    &lt;img src=&quot;/images/2025-09-08/20250908_black_berry.jpeg&quot; width=&quot;400&quot; class=&quot;center&quot; /&gt;
 &lt;/figure&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -56,7 +56,7 @@
   &lt;p&gt;Spoiler alert&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I watched &lt;em&gt;BlackBerry&lt;/em&gt; yesterday. It is a movie based on what happened to BlackBerry, the cell phone manufacturing business. I tend to enjoy movies based on real stories. They can be both amusing and informative. I don’t know much about BlackBerry’s business other than what the movie presented. I recommend watching it to people who enjoy thinking about the working style and growth dynamics of technology startups.&lt;/p&gt;
+&lt;p&gt;I watched &lt;em&gt;BlackBerry&lt;/em&gt; (2023) yesterday. It is a movie based on what happened to BlackBerry, the cell phone manufacturing business. I tend to enjoy movies based on real stories. They can be both amusing and informative. I don’t know much about BlackBerry’s business other than what the movie presented. I recommend watching it to people who enjoy thinking about the working style and growth dynamics of technology startups.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -72,6 +72,8 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;For people who enjoy working on the tech, the story is a reminder that investing in softer skills can be just as important for long-term success.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;P.S.&lt;/em&gt; I borrowed the phrase &lt;em&gt;mental shotgun&lt;/em&gt; from Daniel Kahneman to refer to the many scattered thoughts that come to mind following a trigger.&lt;/p&gt;
 </description>
                 <pubDate>Mon, 08 Sep 2025 00:00:00 +0200</pubDate>
                 <link>http://localhost:4000/blackberry</link>
