@@ -15,10 +15,10 @@ title: "InCoherentTerms"
 description: "Notes, stories, and experiments in writing out loud. Personal Blog of Amin Zamani"
 
 # The subpath of your site, e.g. /blog, for generating urls.
-baseurl: "/incoherentterms"
+baseurl: "" # "/incoherentterms"
 
 # The base hostname & protocol of your site for where absolute urls are needed.
-url: "https://amin7tsix.github.io"
+url: "https://incoherentterms.com" # "https://amin7tsix.github.io"
 
 # Favicon
 favicon: images/favicon.png

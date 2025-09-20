@@ -9,7 +9,7 @@ tags: [physics, navigation]
 
 <div style="text-align: center;">
 <figure>
-    <img src="images/2025-08-24/20250824-Acelerometro_wikipedia.JPG" 
+    <img src="{{ site.baseurl }}/images/2025-08-24/20250824-Acelerometro_wikipedia.JPG" 
     width="300" 
     height="150"
     alt="From wikipedia"

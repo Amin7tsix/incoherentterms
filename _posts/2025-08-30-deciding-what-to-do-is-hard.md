@@ -8,13 +8,14 @@ tags: [life notes, reflections]
 
 <div style="text-align: center;">
 <figure>
-    <img src="images/2025-08-30/20250830_deciding_what_to_do.png" 
-    width="600"
+    <img src="{{ site.baseurl }}/images/2025-08-30/20250830_deciding_what_to_do.png"
+    width="400"
     alt="Chatgpt"
     class="center">
 </figure>
 </div>
 <br>
+
 Somewhere in the Netflix series *Dark*, there’s a scene with an old man from the 19th century who has built an entire laboratory in his garage to create a time machine. What struck me wasn’t the machine itself, but where he got his motivation. His father had once told him about time travel, and he decided to devote his whole life to it.
 
 <!--more-->

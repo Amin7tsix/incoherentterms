@@ -8,8 +8,8 @@ tags: [writing practice, storytelling]
 
 <div style="text-align: center;">
 <figure>
-    <img src="images/2025-09-08/20250908_black_berry.jpeg" 
-    width="500"
+    <img src="{{ site.baseurl }}/images/2025-09-08/20250908_black_berry.jpeg" 
+    width="250"
     class="center">
 </figure>
 </div>

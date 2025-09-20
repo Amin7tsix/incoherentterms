@@ -8,8 +8,8 @@ tags: [life notes, storytelling]
 
 <div style="text-align: center;">
 <figure>
-    <img src="images/2025-08-31/20250831.jpeg" 
-    width="500"
+    <img src="{{ site.baseurl }}/images/2025-08-31/20250831.jpeg" 
+    width="400"
     class="center">
 </figure>
 </div>

@@ -3,17 +3,51 @@
     <channel>
         <title>InCoherentTerms</title>
         <description>Notes, stories, and experiments in writing out loud. Personal Blog of Amin Zamani</description>
-        <link>http://localhost:4000/incoherentterms/</link>
-        <atom:link href="http://localhost:4000/incoherentterms/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 09 Sep 2025 08:39:22 +0200</pubDate>
-        <lastBuildDate>Tue, 09 Sep 2025 08:39:22 +0200</lastBuildDate>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 20 Sep 2025 11:28:20 +0200</pubDate>
+        <lastBuildDate>Sat, 20 Sep 2025 11:28:20 +0200</lastBuildDate>
         <generator>Jekyll v4.3.4</generator>
+        
+            <item>
+                <title>My first video on YouTube</title>
+                <description>&lt;p&gt;Today I published my first YouTube video. It is a brief introduction to quantum computing in Persian.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;/images/2025-09-18/20250918-my-first-youtube-video.png&quot; width=&quot;500&quot; alt=&quot;Screenshot from my first video on YouTube&quot; class=&quot;center&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;The reason I started doing it is mainly to practice presentation skills and to tell coherent stories based on the information I possess. I also imagine that this could lead to creating a community of people interested in the same topics.&lt;/p&gt;
+
+&lt;p&gt;This first video took me more than 15 hours to prepare! It was mostly because I had many failed attempts. From the early stage of deciding what presentation platform to use (PowerPoint, Notion, web browser, or even writing live on iPad) to figuring out how to sew together short clips into a bigger one, each step needed a bit of experimentation. The hardest part for me, though, was convincing myself that a piece was good enough so that I could move on to making the next one.&lt;/p&gt;
+
+&lt;p&gt;I’m happy about this event for a few reasons. Firstly, I have been thinking about publishing videos based on the things I know and I’m interested in for quite a while. To actually sit down and get it done from 0 to 100% is very different from just planning it in my head and imagining how it could or should look. Now it finally happened, and that imagination has taken form. The fact that it took a certain form brings me to my second reason. Now the &lt;em&gt;direction&lt;/em&gt; to continue further is a bit clearer. I wrote in an &lt;a href=&quot;/deciding-what-to-do-is-hard&quot;&gt;earlier post&lt;/a&gt; about how making decisions can be hard and how existing momentum in some direction can help make them easier. Before starting, I had all these routes in my mind about what kinds of things I could talk about. Now I have gained a certain momentum, and at least I know what I want to say and what makes sense to say in my second video.&lt;/p&gt;
+
+&lt;p&gt;The last reason I’m happy about this event is avoiding stagnation. Planning something, watching videos on how to do it, and imagining yourself doing it can be very pleasant and fulfilling. The problem is that this can go on for a while before you realize that nothing has actually happened. That’s why I think taking the first step forward by &lt;em&gt;making&lt;/em&gt; something is an important &lt;em&gt;milestone&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I hope that I keep on experimenting with this route and that it actually helps me feel a difference in the skills I seek to improve.&lt;/p&gt;
+</description>
+                <pubDate>Thu, 18 Sep 2025 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/first-youtube-video</link>
+                <guid isPermaLink="true">http://localhost:4000/first-youtube-video</guid>
+                
+                <category>life notes</category>
+                
+                <category>storytelling</category>
+                
+                
+            </item>
         
             <item>
                 <title>BlackBerry (2023)</title>
                 <description>&lt;div style=&quot;text-align: center;&quot;&gt;
 &lt;figure&gt;
-    &lt;img src=&quot;images/2025-09-08/20250908_black_berry.jpeg&quot; width=&quot;500&quot; class=&quot;center&quot; /&gt;
+    &lt;img src=&quot;/images/2025-09-08/20250908_black_berry.jpeg&quot; width=&quot;250&quot; class=&quot;center&quot; /&gt;
 &lt;/figure&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -40,8 +74,8 @@
 &lt;p&gt;For people who enjoy working on the tech, the story is a reminder that investing in softer skills can be just as important for long-term success.&lt;/p&gt;
 </description>
                 <pubDate>Mon, 08 Sep 2025 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/incoherentterms/blackberry</link>
-                <guid isPermaLink="true">http://localhost:4000/incoherentterms/blackberry</guid>
+                <link>http://localhost:4000/blackberry</link>
+                <guid isPermaLink="true">http://localhost:4000/blackberry</guid>
                 
                 <category>writing practice</category>
                 
@@ -54,7 +88,7 @@
                 <title>Street painting</title>
                 <description>&lt;div style=&quot;text-align: center;&quot;&gt;
 &lt;figure&gt;
-    &lt;img src=&quot;images/2025-08-31/20250831.jpeg&quot; width=&quot;500&quot; class=&quot;center&quot; /&gt;
+    &lt;img src=&quot;/images/2025-08-31/20250831.jpeg&quot; width=&quot;400&quot; class=&quot;center&quot; /&gt;
 &lt;/figure&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -62,8 +96,8 @@
 &lt;p&gt;Sometimes, when walking in the streets of Munich, I see interesting teasers. This time, I saw a new modality of how to paint a picture!&lt;/p&gt;
 </description>
                 <pubDate>Sun, 31 Aug 2025 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/incoherentterms/new-modality-of-painting</link>
-                <guid isPermaLink="true">http://localhost:4000/incoherentterms/new-modality-of-painting</guid>
+                <link>http://localhost:4000/new-modality-of-painting</link>
+                <guid isPermaLink="true">http://localhost:4000/new-modality-of-painting</guid>
                 
                 <category>life notes</category>
                 
@@ -76,11 +110,12 @@
                 <title>Deciding what to do is hard</title>
                 <description>&lt;div style=&quot;text-align: center;&quot;&gt;
 &lt;figure&gt;
-    &lt;img src=&quot;images/2025-08-30/20250830_deciding_what_to_do.png&quot; width=&quot;600&quot; alt=&quot;Chatgpt&quot; class=&quot;center&quot; /&gt;
+    &lt;img src=&quot;/images/2025-08-30/20250830_deciding_what_to_do.png&quot; width=&quot;400&quot; alt=&quot;Chatgpt&quot; class=&quot;center&quot; /&gt;
 &lt;/figure&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;
-Somewhere in the Netflix series &lt;em&gt;Dark&lt;/em&gt;, there’s a scene with an old man from the 19th century who has built an entire laboratory in his garage to create a time machine. What struck me wasn’t the machine itself, but where he got his motivation. His father had once told him about time travel, and he decided to devote his whole life to it.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Somewhere in the Netflix series &lt;em&gt;Dark&lt;/em&gt;, there’s a scene with an old man from the 19th century who has built an entire laboratory in his garage to create a time machine. What struck me wasn’t the machine itself, but where he got his motivation. His father had once told him about time travel, and he decided to devote his whole life to it.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -99,8 +134,8 @@ Somewhere in the Netflix series &lt;em&gt;Dark&lt;/em&gt;, there’s a scene wit
 &lt;p&gt;Maybe the point isn’t to find the perfect decision but to execute and iterate. Start doing something and accept that every choice comes with opportunity costs, and that’s okay. Once you start, you build up momentum and your inertia takes you forward.&lt;/p&gt;
 </description>
                 <pubDate>Sat, 30 Aug 2025 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/incoherentterms/deciding-what-to-do-is-hard</link>
-                <guid isPermaLink="true">http://localhost:4000/incoherentterms/deciding-what-to-do-is-hard</guid>
+                <link>http://localhost:4000/deciding-what-to-do-is-hard</link>
+                <guid isPermaLink="true">http://localhost:4000/deciding-what-to-do-is-hard</guid>
                 
                 <category>life notes</category>
                 
@@ -113,7 +148,7 @@ Somewhere in the Netflix series &lt;em&gt;Dark&lt;/em&gt;, there’s a scene wit
                 <title>When Logic Hurts</title>
                 <description>&lt;div style=&quot;text-align: center;&quot;&gt;
 &lt;figure&gt;
-    &lt;img src=&quot;images/2025-08-24/20250824_logic_hurts_ChatGPT_Image.png&quot; width=&quot;600&quot; alt=&quot;From wikipedia&quot; class=&quot;center&quot; /&gt;
+    &lt;img src=&quot;/images/2025-08-24/20250824_logic_hurts_ChatGPT_Image.png&quot; width=&quot;400&quot; alt=&quot;From wikipedia&quot; class=&quot;center&quot; /&gt;
 &lt;/figure&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;
@@ -134,8 +169,8 @@ When talking with friends, I’ve noticed a certain bitterness in strictly logic
 &lt;p&gt;Logic is an incredible tool, but friendship isn’t a debate. Perhaps the real challenge is knowing when to prioritize accuracy and when to let warmth take the lead. After all, the goal with friends isn’t to win an argument — it’s to share time and leave each other feeling lighter.&lt;/p&gt;
 </description>
                 <pubDate>Sun, 24 Aug 2025 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/incoherentterms/logic</link>
-                <guid isPermaLink="true">http://localhost:4000/incoherentterms/logic</guid>
+                <link>http://localhost:4000/logic</link>
+                <guid isPermaLink="true">http://localhost:4000/logic</guid>
                 
                 <category>life notes</category>
                 
@@ -148,7 +183,7 @@ When talking with friends, I’ve noticed a certain bitterness in strictly logic
                 <title>What is an accelerometer?</title>
                 <description>&lt;div style=&quot;text-align: center;&quot;&gt;
 &lt;figure&gt;
-    &lt;img src=&quot;images/2025-08-24/20250824-Acelerometro_wikipedia.JPG&quot; width=&quot;300&quot; height=&quot;150&quot; alt=&quot;From wikipedia&quot; class=&quot;center&quot; /&gt;
+    &lt;img src=&quot;/images/2025-08-24/20250824-Acelerometro_wikipedia.JPG&quot; width=&quot;300&quot; height=&quot;150&quot; alt=&quot;From wikipedia&quot; class=&quot;center&quot; /&gt;
     &lt;figcaption&gt;Accelerometer from wikipedia&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/div&gt;
@@ -184,68 +219,12 @@ When the engine runs, the wheels push on the ground with a force $-F$, and the g
 &lt;p&gt;An accelerometer is essentially a tiny spring–mass system that compares how much a test mass lags behind its support. It’s a beautiful example of how a simple physical principle underlies much of our modern technology, from navigation systems in phones to guidance in spacecraft.&lt;/p&gt;
 </description>
                 <pubDate>Sun, 24 Aug 2025 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/incoherentterms/accelerometer</link>
-                <guid isPermaLink="true">http://localhost:4000/incoherentterms/accelerometer</guid>
+                <link>http://localhost:4000/accelerometer</link>
+                <guid isPermaLink="true">http://localhost:4000/accelerometer</guid>
                 
                 <category>physics</category>
                 
                 <category>navigation</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>The Illusion of Understanding</title>
-                <description>&lt;p&gt;Here’s a metaphor that came to mind while reading &lt;em&gt;The Illusion of Understanding&lt;/em&gt; by Daniel Kahneman.&lt;br /&gt;
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;In our cold atom experiments, learning something about the atoms usually requires repeating the experiment many times. For example, suppose we want to study how the population of atoms in a certain state changes as we vary a parameter A over the range from A0 to A1. We begin by setting A = A0, let the particles evolve, then measure their state. This produces a single &lt;em&gt;shot&lt;/em&gt;—essentially a snapshot of the atoms. We then increment the parameter to A = A0 + dA, repeat the process, and continue until we reach A = A1. This gives us one scan through the parameter range. To obtain meaningful results, we repeat this scan many times, each time preparing the cold atom sample from scratch, which allows us to build up a &lt;em&gt;probability distribution&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;The number of repetitions depends on the question at hand. For a typical spectroscopy experiment, where we aim to determine the energy of an atomic transition, we might repeat the experiment about 500 times. With the collected data, we fit a theoretical model to extract the relevant parameters.&lt;/p&gt;
-
-&lt;p&gt;Now suppose we’ve determined the transition energy and want to observe &lt;em&gt;Rabi oscillations&lt;/em&gt;—coherent oscillations of an atom between two energy levels. In this case, the scan parameter is the duration of the laser pulse driving the transition, and the observable is the population of atoms in one of the states. A single scan through the range might look like this:&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img src=&quot;/images/2025-08-22/20250822_single_shot_data.png&quot; width=&quot;800&quot; height=&quot;450&quot; alt=&quot;Single run data&quot; /&gt;
-    &lt;figcaption&gt;Experimental data from a single run of the experiment.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The large error bars show that we are not very confident about this data yet. If we repeat the entire scan 100 times and average the results, the data might instead look like this:&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img src=&quot;/images/2025-08-22/20250822_many_shots_data.png&quot; width=&quot;800&quot; height=&quot;450&quot; alt=&quot;Single run data&quot; /&gt;
-    &lt;figcaption&gt;Experimental data from a single run of the experiment.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Now the error bars are smaller, which is expected, since we repeated the experiment many times and are now more confident about each data point. If we fit a model to the first (single-run) dataset, we might obtain something like this:&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img src=&quot;/images/2025-08-22/20250822_single_shot_data_and_fit.png&quot; width=&quot;800&quot; height=&quot;450&quot; alt=&quot;Single run data&quot; /&gt;
-    &lt;figcaption&gt;Experimental data from a single run of the experiment.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Whereas fitting the averaged dataset gives us something more like this:&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img src=&quot;/images/2025-08-22/20250822_many_shots_data_and_fit.png&quot; width=&quot;800&quot; height=&quot;450&quot; alt=&quot;Single run data&quot; /&gt;
-    &lt;figcaption&gt;Experimental data from a single run of the experiment.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The first fit is misleading. It suggests persistent, coherent oscillations lasting for several cycles. In quantum computing terms, this would imply an exceptionally high-fidelity NOT gate (which flips one atomic state to another). However, the averaged data tells a different story: on average, our NOT gate is not nearly as good as the single run suggested. It achieves a fidelity of about 90%.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;em&gt;The Illusion of Understanding&lt;/em&gt; is a section in Daniel Kahneman’s &lt;em&gt;Thinking, Fast and Slow&lt;/em&gt;. He describes a fallacy in human reasoning: our tendency to weave coherent stories from very limited information. To quote him: &lt;em&gt;“Paradoxically, it is easier to construct a coherent story when you know little.”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;This insight is what reminded me of the analogy above. I highly recommend this section of the book—and, in fact, the entire book.&lt;/p&gt;
-</description>
-                <pubDate>Fri, 22 Aug 2025 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/incoherentterms/illusion-of-understanding</link>
-                <guid isPermaLink="true">http://localhost:4000/incoherentterms/illusion-of-understanding</guid>
-                
-                <category>conceptual metaphor</category>
-                
-                <category>books</category>
                 
                 
             </item>
@@ -280,8 +259,8 @@ When the engine runs, the wheels push on the ground with a force $-F$, and the g
 &lt;p&gt;As with water, ice absorbs light at the red end of the spectrum preferentially as the result of an overtone of an oxygen-hydrogen (O-H) bond stretch. Compared with water, this absorption is shifted toward slightly lower energies. Thus, ice appears blue, with a slightly greener tint than for liquid water. Since absorption is cumulative, the color effect intensifies with increasing thickness or if internal reflections cause the light to take a longer path through the ice.&lt;/p&gt;
 </description>
                 <pubDate>Wed, 05 Jan 2022 00:00:00 +0100</pubDate>
-                <link>http://localhost:4000/incoherentterms/Graphic-Designer-On-The-Road</link>
-                <guid isPermaLink="true">http://localhost:4000/incoherentterms/Graphic-Designer-On-The-Road</guid>
+                <link>http://localhost:4000/Graphic-Designer-On-The-Road</link>
+                <guid isPermaLink="true">http://localhost:4000/Graphic-Designer-On-The-Road</guid>
                 
                 <category>Template</category>
                 
@@ -307,8 +286,8 @@ When the engine runs, the wheels push on the ground with a force $-F$, and the g
 
 </description>
                 <pubDate>Fri, 04 Jan 2019 00:00:00 +0100</pubDate>
-                <link>http://localhost:4000/incoherentterms/welcome-to-jekyll</link>
-                <guid isPermaLink="true">http://localhost:4000/incoherentterms/welcome-to-jekyll</guid>
+                <link>http://localhost:4000/welcome-to-jekyll</link>
+                <guid isPermaLink="true">http://localhost:4000/welcome-to-jekyll</guid>
                 
                 <category>Template</category>
                 
@@ -362,8 +341,8 @@ When the engine runs, the wheels push on the ground with a force $-F$, and the g
 &lt;p&gt;Apple Watch finally goes on sale in India on Nov. 6. The device also has launched in Chile, the Philippines, and South Africa.  [ &lt;a href=&quot;https://en.wikipedia.org/wiki/Apple_Watch&quot;&gt;Source&lt;/a&gt; ]&lt;/p&gt;
 </description>
                 <pubDate>Fri, 04 Jan 2019 00:00:00 +0100</pubDate>
-                <link>http://localhost:4000/incoherentterms/a-week-with-the-apple-watch</link>
-                <guid isPermaLink="true">http://localhost:4000/incoherentterms/a-week-with-the-apple-watch</guid>
+                <link>http://localhost:4000/a-week-with-the-apple-watch</link>
+                <guid isPermaLink="true">http://localhost:4000/a-week-with-the-apple-watch</guid>
                 
                 <category>Template</category>
                 
@@ -411,8 +390,8 @@ When the engine runs, the wheels push on the ground with a force $-F$, and the g
 &lt;p&gt;Human waste is often a major source of environmental impact from hiking, and can contaminate the watershed and make other hikers ill. ‘Catholes’ dug 10 to 25 cm (4 to 10 inches) deep, depending on local soil composition and covered after use, at least 60 m (200 feet) away from water sources and trails, are recommended to reduce the risk of bacterial contamination. [ &lt;a href=&quot;https://en.wikipedia.org/wiki/Hiking&quot;&gt;Source&lt;/a&gt; ]&lt;/p&gt;
 </description>
                 <pubDate>Thu, 03 Jan 2019 00:00:00 +0100</pubDate>
-                <link>http://localhost:4000/incoherentterms/basic-rules-for-walking-in-the-mountains</link>
-                <guid isPermaLink="true">http://localhost:4000/incoherentterms/basic-rules-for-walking-in-the-mountains</guid>
+                <link>http://localhost:4000/basic-rules-for-walking-in-the-mountains</link>
+                <guid isPermaLink="true">http://localhost:4000/basic-rules-for-walking-in-the-mountains</guid>
                 
                 <category>Template</category>
                 
