@@ -12,7 +12,7 @@ lang: en-US
 title: "InCoherentTerms"
 
 # A description of your site for meta tag, search engine results.
-description: "Blog of Amin Zamani—Notes, stories, and experiments in writing out loud"
+description: "Amin Zamani's blog—Notes, stories, and experiments in writing out loud"
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: "" # "/incoherentterms"
