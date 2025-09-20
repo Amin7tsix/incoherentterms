@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 description: Now
-permalink: /about/
+permalink: /now/
 # feature_image: images/bio-photo.jpeg
 ---
 
