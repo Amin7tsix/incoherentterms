@@ -5,8 +5,8 @@
         <description>Amin Zamani&apos;s blog—Notes, stories, and experiments in writing out loud</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 20 Sep 2025 12:18:58 +0200</pubDate>
-        <lastBuildDate>Sat, 20 Sep 2025 12:18:58 +0200</lastBuildDate>
+        <pubDate>Sat, 20 Sep 2025 16:27:21 +0200</pubDate>
+        <lastBuildDate>Sat, 20 Sep 2025 16:27:21 +0200</lastBuildDate>
         <generator>Jekyll v4.3.4</generator>
         
             <item>
@@ -33,8 +33,8 @@
 &lt;p&gt;I hope that I keep on experimenting with this route and that it actually helps me feel a difference in the skills I seek to improve.&lt;/p&gt;
 </description>
                 <pubDate>Thu, 18 Sep 2025 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/first-youtube-video</link>
-                <guid isPermaLink="true">http://localhost:4000/first-youtube-video</guid>
+                <link>http://localhost:4000/my-first-video-on-youtube</link>
+                <guid isPermaLink="true">http://localhost:4000/my-first-video-on-youtube</guid>
                 
                 <category>life notes</category>
                 
@@ -76,8 +76,8 @@
 &lt;p&gt;&lt;em&gt;P.S.&lt;/em&gt; I borrowed the phrase &lt;em&gt;mental shotgun&lt;/em&gt; from Daniel Kahneman to refer to the many scattered thoughts that come to mind following a trigger.&lt;/p&gt;
 </description>
                 <pubDate>Mon, 08 Sep 2025 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/blackberry</link>
-                <guid isPermaLink="true">http://localhost:4000/blackberry</guid>
+                <link>http://localhost:4000/mental-shotgun-after-watching-blackberry</link>
+                <guid isPermaLink="true">http://localhost:4000/mental-shotgun-after-watching-blackberry</guid>
                 
                 <category>writing practice</category>
                 
@@ -98,8 +98,8 @@
 &lt;p&gt;Sometimes, when walking in the streets of Munich, I see interesting teasers. This time, I saw a new modality of how to paint a picture!&lt;/p&gt;
 </description>
                 <pubDate>Sun, 31 Aug 2025 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/new-modality-of-painting</link>
-                <guid isPermaLink="true">http://localhost:4000/new-modality-of-painting</guid>
+                <link>http://localhost:4000/street-painting</link>
+                <guid isPermaLink="true">http://localhost:4000/street-painting</guid>
                 
                 <category>life notes</category>
                 
@@ -171,8 +171,8 @@ When talking with friends, I’ve noticed a certain bitterness in strictly logic
 &lt;p&gt;Logic is an incredible tool, but friendship isn’t a debate. Perhaps the real challenge is knowing when to prioritize accuracy and when to let warmth take the lead. After all, the goal with friends isn’t to win an argument — it’s to share time and leave each other feeling lighter.&lt;/p&gt;
 </description>
                 <pubDate>Sun, 24 Aug 2025 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/logic</link>
-                <guid isPermaLink="true">http://localhost:4000/logic</guid>
+                <link>http://localhost:4000/when-logic-hurts</link>
+                <guid isPermaLink="true">http://localhost:4000/when-logic-hurts</guid>
                 
                 <category>life notes</category>
                 
@@ -221,8 +221,8 @@ When the engine runs, the wheels push on the ground with a force $-F$, and the g
 &lt;p&gt;An accelerometer is essentially a tiny spring–mass system that compares how much a test mass lags behind its support. It’s a beautiful example of how a simple physical principle underlies much of our modern technology, from navigation systems in phones to guidance in spacecraft.&lt;/p&gt;
 </description>
                 <pubDate>Sun, 24 Aug 2025 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/accelerometer</link>
-                <guid isPermaLink="true">http://localhost:4000/accelerometer</guid>
+                <link>http://localhost:4000/what-is-an-accelerometer</link>
+                <guid isPermaLink="true">http://localhost:4000/what-is-an-accelerometer</guid>
                 
                 <category>physics</category>
                 
