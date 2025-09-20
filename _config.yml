@@ -33,9 +33,9 @@ navigation:
   - text: About
     url: /about
   - text: Style Guide
-    url: /style-guide/
+    url: /style-guide
   - text: Tags
-    url: /tags/
+    url: /tags
   - text: Download
     url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
 
