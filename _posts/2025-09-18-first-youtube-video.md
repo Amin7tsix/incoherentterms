@@ -3,7 +3,7 @@ layout: post
 title: "My first video on YouTube"
 description: "Why I think publishing my first video on YouTube was an important milestone"
 date: 2025-09-18
-tags: [life notes, storytelling]
+tags: [life notes, reflections]
 ---
 
 Today I published my first YouTube video. It is a brief introduction to quantum computing in Persian.
