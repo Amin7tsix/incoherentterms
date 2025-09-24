@@ -1,19 +1,14 @@
 {
   "links": [
     {
-      "title": "Twitter",
-      "icon": "fa-twitter",
-      "url": "https://twitter.com/"
+      "title": "YouTube",
+      "icon": "fa-youtube",
+      "url": "http://www.youtube.com/@amin_zamani"
     },
     {
       "title": "GitHub",
       "icon": "fa-github",
       "url": "https://github.com/amin7tsix"
-    },
-    {
-      "title": "Instagram",
-      "icon": "fa-instagram",
-      "url": "https://www.instagram.com/"
     },
     {
       "title": "LinkedIn",

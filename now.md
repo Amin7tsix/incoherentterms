@@ -12,8 +12,8 @@ I'm Amin Zamani, 28 years old and from Iran. In my PhD, I work with **ultracold 
 
 **What I’m happy about these days:**
   * I’ve been going to the gym regularly for the past few months — it’s finally becoming a *habit*!
-  * I’m really enjoying *Thinking, Fast and Slow* by Daniel Kahneman.
-  * I've recently started making youtube videos about quantum. It's fun.
+  * I’m really enjoying reading *Thinking, Fast and Slow* by Daniel Kahneman.
+  * I'm making some [YouTube](http://www.youtube.com/@amin_zamani) videos about quantum technologies. So far only in Persian.
   * I’m working on making my blog look nicer and more fun to read.
 
 
