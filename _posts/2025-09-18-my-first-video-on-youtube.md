@@ -20,7 +20,7 @@ Today I published my first YouTube video. It is a brief introduction to quantum 
 
 <!--more-->
 
-The reason I started doing it is mainly to practice presentation skills and to tell coherent stories based on the information I possess. I also imagine that this could lead to creating a community of people interested in the same topics. 
+The reason I started doing it is mainly to practice presentation skills and telling coherent stories based on the information I possess. I also imagine that this could lead to creating a community of people interested in the same topics. 
 
 This first video took me more than 15 hours to prepare! It was mostly because I had many failed attempts. From the early stage of deciding what presentation platform to use (PowerPoint, Notion, web browser, or even writing live on iPad) to figuring out how to sew together short clips into a bigger one, each step needed a bit of experimentation. The hardest part for me, though, was convincing myself that a piece was good enough so that I could move on to making the next one.
 
