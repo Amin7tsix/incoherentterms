@@ -2,6 +2,7 @@
 title: "Post: Quote"
 categories:
   - Blog
+lang: en
 tags:
   - Template
 ---

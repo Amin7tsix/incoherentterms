@@ -4,6 +4,7 @@ title: "What is an accelerometer?"
 description: "Spring-mass accelerometer working principle"
 date: 2025-08-24
 # feature_image: images/2025-08-24/20250824-Acelerometro_wikipedia.JPG
+lang: en
 tags: [physics, navigation]
 ---
 

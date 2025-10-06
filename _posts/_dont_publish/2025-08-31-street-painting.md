@@ -3,6 +3,7 @@ layout: post
 title: "Street painting"
 description: "A new modality of painting"
 date: 2025-08-31
+lang: en
 tags: [life notes, storytelling]
 ---
 

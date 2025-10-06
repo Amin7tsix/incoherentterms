@@ -2,6 +2,7 @@
 title: "Post: Notice"
 categories:
   - Blog
+lang: en
 tags:
   - Template
 ---

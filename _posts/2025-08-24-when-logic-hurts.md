@@ -3,6 +3,7 @@ layout: post
 title: "When Logic Hurts"
 description: "On the tension between logical precision and emotional warmth in conversations with friends"
 date: 2025-08-24
+lang: en
 tags: [life notes, reflections]
 ---
 

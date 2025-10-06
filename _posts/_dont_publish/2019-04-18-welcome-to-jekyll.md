@@ -3,6 +3,7 @@ layout: post
 title: "Welcome to Jekyll!"
 description: "Welcome to Jekyll! description"
 date: 2019-01-04
+lang: en
 tags: [Template]
 ---
 

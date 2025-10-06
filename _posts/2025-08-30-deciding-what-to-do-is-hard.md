@@ -3,6 +3,7 @@ layout: post
 title: "Deciding what to do is hard"
 description: "My thoughts about the difficulty of decision making in the age of social media"
 date: 2025-08-30
+lang: en
 tags: [life notes, reflections]
 ---
 

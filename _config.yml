@@ -36,6 +36,8 @@ navigation:
   #   url: /style-guide
   - text: Tags
     url: /tags
+  - text: فارسی
+    url: /fa
   # - text: Download
   #   url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
 

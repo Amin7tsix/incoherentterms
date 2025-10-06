@@ -4,6 +4,7 @@ title: "Mental shotgun after watching BlackBerry"
 last_modified_at: 2025-09-20
 description: "My comments after watching BlackBerry (2023)"
 date: 2025-09-08
+lang: en
 tags: [writing practice, storytelling]
 ---
 
