@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Deciding what to do is hard</title>
-  <meta name="description" content="My thoughts about the difficulty of decision making in the age of social media">
-  <link rel="canonical" href="http://localhost:4000/deciding-what-to-do-is-hard">
+  <title>Single-lens imaging</title>
+  <meta name="description" content="I demonstrate imaging a building more than 1000 meters away using a single lens and a camera.">
+  <link rel="canonical" href="http://localhost:4000/single-lens-imaging-frauenkirche">
   <link rel="alternate" type="application/rss+xml" title="InCoherentTerms Feed"
     href="http://localhost:4000/feed.xml">
   
@@ -64,11 +64,11 @@
       <main class="main-content fadeInDown delay_075s">
   <article class="post">
     <header class="post-header" dir="ltr">
-      <time class="post-date" datetime="2025-08-30">August 30, 2025</time>
-      <h1 class="post-title">Deciding what to do is hard</h1>
+      <time class="post-date" datetime="2025-10-07">October 7, 2025</time>
+      <h1 class="post-title">Single-lens imaging</h1>
       <div class="post-meta">
         
-          By <span class="post-author">Amin Zamani</span><span class="post-tags"> in <a href="/tags/#life+notes" rel="tag">life notes</a>, <a href="/tags/#reflections" rel="tag">reflections</a></span>
+          By <span class="post-author">Amin Zamani</span><span class="post-tags"> in <a href="/tags/#physics" rel="tag">physics</a>, <a href="/tags/#experiments" rel="tag">experiments</a></span>
         
       </div><!-- .post-meta -->
       
@@ -76,36 +76,62 @@
     <div class="post-content" dir="ltr">
       <div style="text-align: center;">
 <figure>
-    <img src="/images/2025-08-30/20250830_deciding_what_to_do.png" width="400" alt="Chatgpt" class="center" />
+    <img src="/images/2025-10-07/20251007_frauenkirche.png" width="500" alt="Munich's Frauenkirche" class="center" />
+    <figcaption>Munich's Frauenkirche</figcaption>
 </figure>
 </div>
-<p><br /></p>
 
-<p>Somewhere in the Netflix series <em>Dark</em>, there’s a scene with an old man from the 19th century who has built an entire laboratory in his garage to create a time machine. What struck me wasn’t the machine itself, but where he got his motivation. His father had once told him about time travel, and he decided to devote his whole life to it.</p>
+<p>In single-lens imaging, it surprises me how sensitive tuning the lens position becomes, the further the object is.</p>
 
 <!--more-->
 
-<p>Of course, this is fiction, and I don’t take it literally. But it reminded me of a broader theme: deciding what to do with your life feels much harder today than it might have in those days. With the Internet and social media, we now know a lot about many people. We know what can be achieved within 5 or 10 years and that information increases our perceived opportunity cost of choosing any specific path. The more we know, the higher the bar gets.</p>
+<p>Of course, it’s just the simple rule of geometric optics for imaging with a single lens:</p>
 
-<p>We learn from Daniel Kahneman and others that decision making pulls from the same mental resources as solving math problems. It’s cognitively expensive. Even in a supermarket, debating whether to buy the chocolate bar by the cashier uses up energy. When it comes to more important things, like deciding what to focus on over the next 10 years of your life, which project to commit to, or how to sort out your values, it becomes even harder.</p>
+\[\frac{1}{p} + \frac{1}{q} = \frac{1}{f}\]
 
-<p>Even starting this blog came with hesitation. If I write, it means I’m not doing something else: reading books, coding, diving into research papers, or less technical things like spending time with family. That’s the opportunity cost. And yet, there are things to gain: the pleasure of writing, the discipline of committing to a long-term personal project, and maybe a few insights along the way. The real struggle is figuring out how to weigh these trade-offs.</p>
+<p>If the object is a distance $p$ away from a thin lens with focal length $f$, its image will form on the other side of the lens at a distance $q$ away. If we look at the changes of quantities for a fixed focal length we get:</p>
 
-<p>The worst part of indecision is the stagnation it breeds. You can easily drift into doing nothing at all, simply because no option feels convincingly better than the rest. It becomes easier to convince yourself to do something when there are <em>external forces</em> and <em>boundary conditions</em>. The <em>external force</em> is the more obvious one—like when you have to do homework for school. By <em>boundary conditions</em> I mean when you’ve already gained momentum in a specific direction. Then the choice feels less like a dilemma and more like a continuation.</p>
+\[-\frac{dp}{p^2} -\frac{dq}{q^2} =0\]
 
-<hr />
+<p>For imaging a far away object, $p\rightarrow\infty$ and $q\rightarrow f$, hence</p>
 
-<h3 id="what-now">What now?</h3>
+\[\frac{dq}{dp}\approx -\frac{f^2}{p^2}\]
 
-<p>Maybe the point isn’t to find the perfect decision but to execute and iterate. Start doing something and accept that every choice comes with opportunity costs, and that’s okay. Once you start, you build up momentum and your inertia takes you forward.</p>
+<p>This relation tells us that if the object is much further than one f away from the lens, a tiny variation in the lens-camera distance ($dq$) results in a huge change in the position of the object which comes into focus ($dp$).</p>
+
+<p>In the following video, I demonstrate imaging a building about 1300 meters away using a CMOS camera from Allied Vision and an A-coated lens with $f=200$mm.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://youtu.be/kfUZJvpLUbc?si=PWjDFfgxxTTpsvdX" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen="">
+  </iframe>
+</div>
+
+<!-- <iframe width="560" height="315"
+  src="https://youtu.be/kfUZJvpLUbc?si=PWjDFfgxxTTpsvdX"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe> -->
+
+<p>For clarity, here’s a schematic of this simple experiment:</p>
+
+<div style="text-align: center;">
+<figure>
+    <img src="/images/2025-10-07/20251007_optics_schematics.png" width="700" alt="Schematics of the imaging system" class="center" />
+    <figcaption>Schematics of the imaging system</figcaption>
+</figure>
+</div>
+
+<p>I first coarsly align the lens position by imaging a building nearby (about 100 meters away) and then try shooting far away. I try bringing Munich’s <em>Frauenkirche</em> into the focus first. Then I try to read the time from the clock on another tower nearby Frauenkirche. The lens is moved in and out to demonstrate the image getting sharp and blurry. To finely adjust the lens position, I zoom into the image frame via the camera program to see the details better.</p>
 
     </div><!-- .post-content -->
     <div class="post-share">
       <span>Share:</span>
       <a target="_blank"
-        href="https://twitter.com/intent/tweet?text=Deciding%20what%20to%20do%20is%20hard&amp;url=http://localhost:4000/deciding-what-to-do-is-hard" rel="noopener">Twitter</a>
+        href="https://twitter.com/intent/tweet?text=Single-lens%20imaging&amp;url=http://localhost:4000/single-lens-imaging-frauenkirche" rel="noopener">Twitter</a>
       <a target="_blank"
-        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/deciding-what-to-do-is-hard&amp;t=Deciding%20what%20to%20do%20is%20hard" rel="noopener">Facebook</a>
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/single-lens-imaging-frauenkirche&amp;t=Single-lens%20imaging" rel="noopener">Facebook</a>
     </div><!-- .share-post -->
     <div class="author-box">
       

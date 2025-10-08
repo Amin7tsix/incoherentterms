@@ -5,9 +5,73 @@
         <description>Amin Zamani&apos;s blog—Notes, stories, and experiments in writing out loud</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 06 Oct 2025 21:18:10 +0200</pubDate>
-        <lastBuildDate>Mon, 06 Oct 2025 21:18:10 +0200</lastBuildDate>
+        <pubDate>Wed, 08 Oct 2025 14:00:35 +0200</pubDate>
+        <lastBuildDate>Wed, 08 Oct 2025 14:00:35 +0200</lastBuildDate>
         <generator>Jekyll v4.3.4</generator>
+        
+            <item>
+                <title>Single-lens imaging</title>
+                <description>&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;/images/2025-10-07/20251007_frauenkirche.png&quot; width=&quot;500&quot; alt=&quot;Munich&apos;s Frauenkirche&quot; class=&quot;center&quot; /&gt;
+    &lt;figcaption&gt;Munich&apos;s Frauenkirche&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In single-lens imaging, it surprises me how sensitive tuning the lens position becomes, the further the object is.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Of course, it’s just the simple rule of geometric optics for imaging with a single lens:&lt;/p&gt;
+
+\[\frac{1}{p} + \frac{1}{q} = \frac{1}{f}\]
+
+&lt;p&gt;If the object is a distance $p$ away from a thin lens with focal length $f$, its image will form on the other side of the lens at a distance $q$ away. If we look at the changes of quantities for a fixed focal length we get:&lt;/p&gt;
+
+\[-\frac{dp}{p^2} -\frac{dq}{q^2} =0\]
+
+&lt;p&gt;For imaging a far away object, $p\rightarrow\infty$ and $q\rightarrow f$, hence&lt;/p&gt;
+
+\[\frac{dq}{dp}\approx -\frac{f^2}{p^2}\]
+
+&lt;p&gt;This relation tells us that if the object is much further than one f away from the lens, a tiny variation in the lens-camera distance ($dq$) results in a huge change in the position of the object which comes into focus ($dp$).&lt;/p&gt;
+
+&lt;p&gt;In the following video, I demonstrate imaging a building about 1300 meters away using a CMOS camera from Allied Vision and an A-coated lens with $f=200$mm.&lt;/p&gt;
+
+&lt;div style=&quot;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&quot;&gt;
+  &lt;iframe src=&quot;https://youtu.be/kfUZJvpLUbc?si=PWjDFfgxxTTpsvdX&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;!-- &lt;iframe width=&quot;560&quot; height=&quot;315&quot;
+  src=&quot;https://youtu.be/kfUZJvpLUbc?si=PWjDFfgxxTTpsvdX&quot;
+  title=&quot;YouTube video player&quot;
+  frameborder=&quot;0&quot;
+  allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;
+  allowfullscreen&gt;
+&lt;/iframe&gt; --&gt;
+
+&lt;p&gt;For clarity, here’s a schematic of this simple experiment:&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;/images/2025-10-07/20251007_optics_schematics.png&quot; width=&quot;700&quot; alt=&quot;Schematics of the imaging system&quot; class=&quot;center&quot; /&gt;
+    &lt;figcaption&gt;Schematics of the imaging system&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I first coarsly align the lens position by imaging a building nearby (about 100 meters away) and then try shooting far away. I try bringing Munich’s &lt;em&gt;Frauenkirche&lt;/em&gt; into the focus first. Then I try to read the time from the clock on another tower nearby Frauenkirche. The lens is moved in and out to demonstrate the image getting sharp and blurry. To finely adjust the lens position, I zoom into the image frame via the camera program to see the details better.&lt;/p&gt;
+</description>
+                <pubDate>Tue, 07 Oct 2025 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/single-lens-imaging-frauenkirche</link>
+                <guid isPermaLink="true">http://localhost:4000/single-lens-imaging-frauenkirche</guid>
+                
+                <category>physics</category>
+                
+                <category>experiments</category>
+                
+                
+            </item>
         
             <item>
                 <title>My first video on YouTube</title>
