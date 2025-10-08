@@ -34,13 +34,13 @@ For imaging a far away object, $p\rightarrow\infty$ and $q\rightarrow f$, hence
 
 $$ \frac{dq}{dp}\approx -\frac{f^2}{p^2} $$
 
-This relation tells us that if the object is much further than one f away from the lens, a tiny variation in the lens-camera distance ($dq$) results in a huge change in the position of the object which comes into focus ($dp$). 
+This relation tells us that if the object is much further than one f away from the lens, a tiny variation in the lens-camera distance ($dq$) results in a huge change in the position of the object, i.e. the conjugate plane of the lens ($dp$). 
 
 In the following video, I demonstrate imaging a building about 1300 meters away using a CMOS camera from Allied Vision and an A-coated lens with $f=200$mm.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe
-    src="https://youtu.be/kfUZJvpLUbc?si=PWjDFfgxxTTpsvdX"
+    src="https://www.youtube.com/embed/kfUZJvpLUbc"
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
     frameborder="0"
     allowfullscreen>
@@ -54,6 +54,9 @@ In the following video, I demonstrate imaging a building about 1300 meters away 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe> -->
+
+<!-- <iframe width="940" height="480" src="https://www.youtube.com/embed/kfUZJvpLUbc" frameborder="0" allowfullscreen=""></iframe> -->
+
 
 For clarity, here’s a schematic of this simple experiment:
 

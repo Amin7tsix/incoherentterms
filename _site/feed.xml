@@ -5,8 +5,8 @@
         <description>Amin Zamani&apos;s blog—Notes, stories, and experiments in writing out loud</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 08 Oct 2025 14:02:15 +0200</pubDate>
-        <lastBuildDate>Wed, 08 Oct 2025 14:02:15 +0200</lastBuildDate>
+        <pubDate>Wed, 08 Oct 2025 17:07:32 +0200</pubDate>
+        <lastBuildDate>Wed, 08 Oct 2025 17:07:32 +0200</lastBuildDate>
         <generator>Jekyll v4.3.4</generator>
         
             <item>
@@ -34,12 +34,12 @@
 
 \[\frac{dq}{dp}\approx -\frac{f^2}{p^2}\]
 
-&lt;p&gt;This relation tells us that if the object is much further than one f away from the lens, a tiny variation in the lens-camera distance ($dq$) results in a huge change in the position of the object which comes into focus ($dp$).&lt;/p&gt;
+&lt;p&gt;This relation tells us that if the object is much further than one f away from the lens, a tiny variation in the lens-camera distance ($dq$) results in a huge change in the position of the object, i.e. the conjugate plane of the lens ($dp$).&lt;/p&gt;
 
 &lt;p&gt;In the following video, I demonstrate imaging a building about 1300 meters away using a CMOS camera from Allied Vision and an A-coated lens with $f=200$mm.&lt;/p&gt;
 
 &lt;div style=&quot;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&quot;&gt;
-  &lt;iframe src=&quot;https://youtu.be/kfUZJvpLUbc?si=PWjDFfgxxTTpsvdX&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/kfUZJvpLUbc&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
   &lt;/iframe&gt;
 &lt;/div&gt;
 
@@ -50,6 +50,8 @@
   allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;
   allowfullscreen&gt;
 &lt;/iframe&gt; --&gt;
+
+&lt;!-- &lt;iframe width=&quot;940&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/kfUZJvpLUbc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; --&gt;
 
 &lt;p&gt;For clarity, here’s a schematic of this simple experiment:&lt;/p&gt;
 
