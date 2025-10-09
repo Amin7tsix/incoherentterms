@@ -47,17 +47,6 @@ In the following video, I demonstrate imaging a building about 1300 meters away 
   </iframe>
 </div>
 
-<!-- <iframe width="560" height="315"
-  src="https://youtu.be/kfUZJvpLUbc?si=PWjDFfgxxTTpsvdX"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe> -->
-
-<!-- <iframe width="940" height="480" src="https://www.youtube.com/embed/kfUZJvpLUbc" frameborder="0" allowfullscreen=""></iframe> -->
-
-
 For clarity, here’s a schematic of this simple experiment:
 
 <div style="text-align: center;">
@@ -66,7 +55,7 @@ For clarity, here’s a schematic of this simple experiment:
     width="700"
     alt="Schematics of the imaging system"
     class="center">
-    <figcaption>Schematics of the imaging system</figcaption>
+    <figcaption>Schematic of the imaging system</figcaption>
 </figure>
 </div>
 
