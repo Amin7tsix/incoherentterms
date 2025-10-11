@@ -32,7 +32,7 @@ If the AOM is placed in the focal plane of a lens followed by the retro-reflecto
 3. Thermal sensitivity: \\
 Because of feature number 2, the typical temperature sensitivity in AOMs that leads to beam pointing instability can be largely mitigated. 
 
-I recently wanted to divide my laser beam into 5 branches and set up a double-pass AOM for each branch. They are then used for Raman sideband cooling in a Yb-171 tweezer experiment. Because I wanted to push the setup for compactness, I ended up using a polarizing beamsplitter cube glued on a mirror mount together with the AOM on a mirror mount. Combined, they provide 4 degrees of freedom to align the beam position into the AOM crystal and hit the Bragg angle of the AOM crystal. Here's the schematic of this arrangement:
+I recently wanted to divide my laser beam into 5 branches and set up a double-pass AOM for each branch. They are then used for Raman sideband cooling in a Ytterbium tweezer experiment. Because I wanted to push the setup for compactness, I ended up using a polarizing beamsplitter cube glued on a mirror mount together with the AOM on a mirror mount. Combined, they provide 4 degrees of freedom to align the beam position into the AOM crystal and hit the Bragg angle of the crystal. Here's the schematic of this arrangement:
 
 <div style="text-align: center;">
 <figure>
