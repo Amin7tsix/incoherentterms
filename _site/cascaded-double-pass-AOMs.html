@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compact double-pass AOM setup</title>
+  <meta name="description" content="I present a compact double-pass AOM setup which I recently built in the lab.">
+  <link rel="canonical" href="http://localhost:4000/cascaded-double-pass-AOMs">
+  <link rel="alternate" type="application/rss+xml" title="InCoherentTerms Feed"
+    href="http://localhost:4000/feed.xml">
+  
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
+  
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <div id="page" class="site">
+    <div class="inner">
+      <header class="site-header">
+  
+  <p class="site-title"><a class="logo-text" href="/">InCoherentTerms</a></p>
+  
+  <nav class="site-navigation">
+    <div class="site-navigation-wrap">
+      <h2 class="screen-reader-text">Main navigation</h2>
+      <ul class="menu">
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/">Home</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/now">Now</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/tags">Tags</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/fa">فارسی</a>
+        </li>
+        
+      </ul><!-- .menu -->
+      <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
+          class="icon-close" aria-hidden="true"></span></button>
+    </div><!-- .site-navigation-wrap -->
+  </nav><!-- .site-navigation -->
+  <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+</header>
+
+
+      <main class="main-content fadeInDown delay_075s">
+  <article class="post">
+    <header class="post-header" dir="ltr">
+      <time class="post-date" datetime="2025-10-11">October 11, 2025</time>
+      <h1 class="post-title">Compact double-pass AOM setup</h1>
+      <div class="post-meta">
+        
+          By <span class="post-author">Amin Zamani</span><span class="post-tags"> in <a href="/tags/#physics" rel="tag">physics</a>, <a href="/tags/#experiments" rel="tag">experiments</a></span>
+        
+      </div><!-- .post-meta -->
+      
+    </header><!-- .post-header -->
+    <div class="post-content" dir="ltr">
+      <div style="text-align: center;">
+<figure>
+    <img src="/images/2025-10-11/20251011_AOM_diffraction_from_Saleh_and_Teich_book
+.png" width="400" alt="Bragg diffraction schematic from Fundamentals of Photonics textbook by Saleh and Teich" class="center" />
+    <figcaption>Bragg diffraction</figcaption>
+</figure>
+</div>
+
+<p>Double-pass your AOM!<br />
+It’s actually pretty cool. When you retro-reflect the diffracted light back into the AOM and diffract it in the same order again (like +1 and +1, or -1 and -1), a few nice things happen:</p>
+
+<!--more-->
+
+<ol>
+  <li>
+    <p>Tuning range: <br />
+There will be an effectively larger tuning range of the radio frequency drive. Because a df change of the drive frequency translates to a 2.df frequency change on the light.</p>
+  </li>
+  <li>
+    <p>Pointing: <br />
+If the AOM is placed in the focal plane of a lens followed by the retro-reflector, the pointing of the twice-diffracted light stays fixed when the drive frequency is changed.</p>
+  </li>
+  <li>
+    <p>Thermal sensitivity: <br />
+Because of feature number 2, the typical temperature sensitivity in AOMs that leads to beam pointing instability can be largely mitigated.</p>
+  </li>
+</ol>
+
+<p>I recently wanted to divide my laser beam into 5 branches and set up a double-pass AOM for each branch. They are then used for Raman sideband cooling in a Yb-171 tweezer experiment. Because I wanted to push the setup for compactness, I ended up using a polarizing beamsplitter cube glued on a mirror mount together with the AOM on a mirror mount. Combined, they provide 4 degrees of freedom to align the beam position into the AOM crystal and hit the Bragg angle of the AOM crystal. Here’s the schematic of this arrangement:</p>
+
+<div style="text-align: center;">
+<figure>
+    <img src="/images/2025-10-11/20251011_double_pass_AOMs.png" width="500" alt="Schematic of the optical setup" class="center" />
+    <figcaption>Schematic of the optical setup</figcaption>
+</figure>
+</div>
+
+<p>And a top view of the experimental setup:</p>
+
+<div style="text-align: center;">
+<figure>
+    <img src="/images/2025-10-11/20251011_double_pass_AOM_setup_from_the_lab
+.jpeg" width="500" alt="The experimental setup" class="center" />
+    <figcaption>The experimental setup of the double-pass AOMs</figcaption>
+</figure>
+</div>
+
+<p>It gives me satisfaction to see all 4 ports of each cube being used!</p>
+
+<p>Bonus (!): <br />
+If the retro-reflector is exactly f away from the lens, i.e. a cat’s eye arrangement, a collimated beam entering the AOM leaves collimated after twice diffraction. Now, if the retro-reflector is moved back and forth, the beam’s divergence can be tuned. This means that if we are focusing the double-diffracted light using a single lens, the focal point can be moved along the optical axis. In a <a href="https://arxiv.org/pdf/2510.07633">recent work</a> from Manuel Endres team, authors propose using a grating as the retro-reflector which enables using the acoustic diffraction frequency to move the beam’s focus position along the optical axis.</p>
+
+    </div><!-- .post-content -->
+    <div class="post-share">
+      <span>Share:</span>
+      <a target="_blank"
+        href="https://twitter.com/intent/tweet?text=Compact%20double-pass%20AOM%20setup&amp;url=http://localhost:4000/cascaded-double-pass-AOMs" rel="noopener">Twitter</a>
+      <a target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/cascaded-double-pass-AOMs&amp;t=Compact%20double-pass%20AOM%20setup" rel="noopener">Facebook</a>
+    </div><!-- .share-post -->
+    <div class="author-box">
+      
+      <div class="author-avatar" style="background-image: url('images/bio-photo.jpeg')"><span class="screen-reader-text">Amin Zamani's Picture</span></div>
+      
+      <div class="author-details">
+        <h2 class="author-title">About Amin Zamani</h2>
+        <div class="author-bio"><p>Amin is a PhD student based in Munich exploring cold atoms for quantum computing, navigation, and other applications with a focus on real-world impact</p>
+</div>
+        
+        <span class="author-location">Munich, Germany</span>
+        
+        
+        <span class="author-website"><a href="https://www.incoherentterms.com/" target="_blank" rel="noopener">https://www.incoherentterms.com/</a></span>
+        
+      </div><!-- .author-details -->
+    </div><!-- .author-box -->
+  </article><!-- .post -->
+
+  
+    <div class="comments-area">
+  <div class="comments-inner">
+    <h2 class="comments-title">Comments</h2>
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+        Disqus</a>.</noscript>
+  </div><!-- .comments-inner -->
+</div><!-- .comments-area -->
+
+<script type="text/javascript">
+  var disqus_shortname = 'justgoodthemes';
+  var disqus_developer = 0;
+  (function () {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+  
+
+</main><!-- .main-content -->
+      <footer class="site-footer">
+  <div class="offsite-links">
+    
+      
+<a href="http://www.youtube.com/@amin_zamani" target="_blank" rel="noopener">
+  <span class="fa-youtube" aria-hidden="true"></span>
+  <span class="screen-reader-text">YouTube</span>
+</a>
+
+<a href="https://github.com/amin7tsix" target="_blank" rel="noopener">
+  <span class="fa-github" aria-hidden="true"></span>
+  <span class="screen-reader-text">GitHub</span>
+</a>
+
+<a href="www.linkedin.com/in/amin-zamani-759b0a189" target="_blank" rel="noopener">
+  <span class="fa-linkedin" aria-hidden="true"></span>
+  <span class="screen-reader-text">LinkedIn</span>
+</a>
+
+    
+  </div><!-- .offsite-links -->
+  <div class="footer-bottom">
+    <div class="site-info">
+      <p>© Scriptor all rights reserved. Theme by <a href="https://www.justgoodthemes.com">JustGoodThemes</a>.</p>
+
+    </div><!-- .site-info -->
+    <a href="#page" id="back-to-top" class="back-to-top"><span class="screen-reader-text">Back to the top </span>&#8593;</a>
+  </div><!-- .footer-bottom -->
+</footer><!-- .site-footer -->
+
+    </div><!-- .inner -->
+  </div><!-- .site -->
+
+  <!-- Scripts -->
+  
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+  
+  <script src="/assets/js/plugins.js"></script>
+  <script src="/assets/js/custom.js"></script>
+
+  <script>
+  MathJax = {
+    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+    svg: { fontCache: 'global' }
+  };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+</body>
+</html>
