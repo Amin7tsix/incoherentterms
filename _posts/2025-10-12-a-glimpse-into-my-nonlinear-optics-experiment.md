@@ -42,9 +42,9 @@ In the video, as the wavelength of the pump light changes, the Lithium Niobate g
 <figure>
     <img src="{{ site.baseurl }}/images/2025-10-12/2025-10-12-LiN-and-GaSe-on-translation-stage.jpeg" 
     width="400"
-    alt="Lithium Niobate and Gallium Selenide crystals in the focal plane of two lenses"
+    alt="Lithium Niobate and Gallium Selenide crystals"
     class="center">
-    <figcaption>Lithium Niobate and Gallium Selenide crystals in the focal plane of two lenses</figcaption>
+    <figcaption>Lithium Niobate and Gallium Selenide crystals</figcaption>
 </figure>
 </div>
 
