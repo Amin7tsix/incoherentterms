@@ -4,7 +4,7 @@ title: "Compact double-pass AOM setup"
 description: "I present a compact double-pass AOM setup which I recently built in the lab."
 date: 2025-10-11
 lang: en
-tags: [physics, experiments]
+tags: [physics, experiments, acousto-optic modulator, optical setup]
 ---
 
 <div style="text-align: center;">

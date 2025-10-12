@@ -5,9 +5,62 @@
         <description>Amin Zamani&apos;s blog—Notes, stories, and experiments in writing out loud</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 12 Oct 2025 14:04:49 +0200</pubDate>
-        <lastBuildDate>Sun, 12 Oct 2025 14:04:49 +0200</lastBuildDate>
+        <pubDate>Sun, 12 Oct 2025 18:54:36 +0200</pubDate>
+        <lastBuildDate>Sun, 12 Oct 2025 18:54:36 +0200</lastBuildDate>
         <generator>Jekyll v4.3.4</generator>
+        
+            <item>
+                <title>A Glimpse Into My Nonlinear Optics Experiment</title>
+                <description>&lt;p&gt;While going through some old lab photos, I found a short video from my master’s thesis experiment — just 15 seconds long, but it brought back so many memories from the lab.&lt;/p&gt;
+
+&lt;div style=&quot;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&quot;&gt;
+  &lt;iframe src=&quot;https://youtube.com/embed/e6lqZKQJmj4?feature=share&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;br /&gt;
+It shows a Lithium Niobate thin film mounted on an XYZ translation stage, sitting neatly between two miniature lenses (each with a 4.5 mm focal length):&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;/images/2025-10-12/2025-10-12-Samples-in-focus-collimation-setup.jpeg&quot; width=&quot;400&quot; alt=&quot;Part of the optical setup&quot; class=&quot;center&quot; /&gt;
+    &lt;figcaption&gt;Part of the optical setup&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+During the recording, the sample is illuminated by infrared light generated through a parametric down-conversion (PDC) process in a BIBO crystal. The motivation for generating the pump light via PDC was to have an easy way to tune the wavelength over a large range. We needed this to study the wavelength dependence of the SHG process, i.e., $\chi_2(2\omega_p; \omega_p, \omega_p)$. The BIBO crystal was pumped with a pulsed 532 nm laser, and by tuning the crystal angle — mounted on a rotation stage — we could achieve signal/idler wavelengths ranging from about 1100 nm up to around 1700 nm.&lt;/p&gt;
+
+&lt;p&gt;In the video, as the wavelength of the pump light changes, the Lithium Niobate glows in different colors — in the visible range. That glow comes from second-harmonic generation (SHG), where the material converts light into new colors by doubling its frequency. In this experiment, the main goal was actually to study another nonlinear crystal: Gallium Selenide (GaSe). It is possible to make very thin layers of GaSe and use them to generate entangled photon pairs via SPDC. The Gallium Selenide sample was installed side by side with the Lithium Niobate on the translation stage. Having them both on the same stage allowed for easy switching between the two samples. Because Lithium Niobate produced a stronger signal, it served as a convenient reference for calibration and verification. Here’s another picture showing both samples:&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;/images/2025-10-12/2025-10-12-LiN-and-GaSe-on-translation-stage.jpeg&quot; width=&quot;400&quot; alt=&quot;Lithium Niobate and Gallium Selenide crystals in the focal plane of two lenses&quot; class=&quot;center&quot; /&gt;
+    &lt;figcaption&gt;Lithium Niobate and Gallium Selenide crystals in the focal plane of two lenses&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Looking back, I love how this short clip captures the magic of experimental optics — when something invisible suddenly becomes visible in a burst of color.&lt;/p&gt;
+</description>
+                <pubDate>Sun, 12 Oct 2025 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/a-glimpse-into-my-nonlinear-optics-experiment</link>
+                <guid isPermaLink="true">http://localhost:4000/a-glimpse-into-my-nonlinear-optics-experiment</guid>
+                
+                <category>physics</category>
+                
+                <category>experiments</category>
+                
+                <category>nonlinear optics</category>
+                
+                <category>second harmonic generation</category>
+                
+                <category>lithium niobate</category>
+                
+                
+            </item>
         
             <item>
                 <title>Compact double-pass AOM setup</title>
@@ -71,6 +124,10 @@ If the retro-reflector is exactly f away from the lens, i.e. a cat’s eye arran
                 
                 <category>experiments</category>
                 
+                <category>acousto-optic modulator</category>
+                
+                <category>optical setup</category>
+                
                 
             </item>
         
@@ -126,6 +183,10 @@ If the retro-reflector is exactly f away from the lens, i.e. a cat’s eye arran
                 <category>physics</category>
                 
                 <category>experiments</category>
+                
+                <category>optics</category>
+                
+                <category>imaging</category>
                 
                 
             </item>

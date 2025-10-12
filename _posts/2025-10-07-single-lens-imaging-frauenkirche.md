@@ -4,7 +4,7 @@ title: "Single-lens imaging"
 description: "I demonstrate imaging a building more than 1000 meters away using a single lens and a camera."
 date: 2025-10-07
 lang: en
-tags: [physics, experiments]
+tags: [physics, experiments, optics, imaging]
 ---
 
 <div style="text-align: center;">
