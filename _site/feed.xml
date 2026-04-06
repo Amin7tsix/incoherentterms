@@ -5,20 +5,19 @@
         <description>Amin Zamani&apos;s blog—Notes, stories, and experiments in writing out loud</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 06 Apr 2026 14:55:39 +0200</pubDate>
-        <lastBuildDate>Mon, 06 Apr 2026 14:55:39 +0200</lastBuildDate>
+        <pubDate>Mon, 06 Apr 2026 15:10:30 +0200</pubDate>
+        <lastBuildDate>Mon, 06 Apr 2026 15:10:30 +0200</lastBuildDate>
         <generator>Jekyll v4.3.4</generator>
         
             <item>
                 <title>عکس‌های سفر لوکزامبورگ</title>
                 <description>&lt;div style=&quot;display: flex; gap: 8px; justify-content: center;&quot;&gt;
   &lt;figure style=&quot;margin: 0; flex: 1;&quot;&gt;
-    &lt;img src=&quot;/images/2026-04-06/20260406_IMG_6284.jpeg&quot; style=&quot;width: 100%; height: 200px; object-fit: cover;&quot; alt=&quot;نمایی از شهر از داخل موزه هنرهای مدرن&quot; /&gt;
-    &lt;figcaption style=&quot;text-align:center;&quot;&gt;نمایی از شهر از داخل موزه هنرهای مدرن&lt;/figcaption&gt;
+    &lt;img src=&quot;/images/2026-04-06/20260406_IMG_6318.jpeg&quot; style=&quot;width: 100%; height: 400px; object-fit: cover;&quot; alt=&quot;دیوار و برج&quot; /&gt;
   &lt;/figure&gt;
   &lt;figure style=&quot;margin: 0; flex: 1;&quot;&gt;
-    &lt;img src=&quot;/images/2026-04-06/20260406_IMG_6299.jpeg&quot; style=&quot;width: 100%; height: 200px; object-fit: cover;&quot; alt=&quot;نمایی از یکی از پل‌های شهر&quot; /&gt;
-    &lt;figcaption style=&quot;text-align:center;&quot;&gt;نمایی از یک پل&lt;/figcaption&gt;
+    &lt;img src=&quot;/images/2026-04-06/20260406_IMG_6324.jpeg&quot; style=&quot;width: 100%; height: 400px; object-fit: cover;&quot; alt=&quot;آسانسورِ شهر&quot; /&gt;
+    &lt;figcaption style=&quot;text-align:center;&quot;&gt;آسانسورِ شهر&lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -26,16 +25,24 @@
 
 &lt;div style=&quot;display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 16px;&quot;&gt;
   &lt;figure style=&quot;margin: 0;&quot;&gt;
-    &lt;img src=&quot;/images/2026-04-06/20260406_IMG_6262.jpeg&quot; style=&quot;width: 100%; height: 220px; object-fit: cover;&quot; alt=&quot;نمای شهر از بالای یک پل&quot; /&gt;
+    &lt;img src=&quot;/images/2026-04-06/20260406_IMG_6299.jpeg&quot; style=&quot;width: 100%; height: 200px; object-fit: cover;&quot; alt=&quot;نمایی از یکی از پل‌های شهر&quot; /&gt;
+    &lt;figcaption style=&quot;text-align:center;&quot;&gt;نمایی از یک پل&lt;/figcaption&gt;
   &lt;/figure&gt;
+  
+  &lt;figure style=&quot;margin: 0;&quot;&gt;
+    &lt;img src=&quot;/images/2026-04-06/20260406_IMG_6284.jpeg&quot; style=&quot;width: 100%; height: 200px; object-fit: cover;&quot; alt=&quot;نمایی از شهر از داخل موزه هنرهای مدرن&quot; /&gt;
+    &lt;figcaption style=&quot;text-align:center;&quot;&gt;نمایی از شهر از داخل موزه هنرهای مدرن&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
   &lt;figure style=&quot;margin: 0;&quot;&gt;
     &lt;img src=&quot;/images/2026-04-06/20260406_IMG_6321.jpeg&quot; style=&quot;width: 100%; height: 220px; object-fit: cover;&quot; alt=&quot;انعکاس در آب&quot; /&gt;
     &lt;figcaption style=&quot;text-align:center;&quot;&gt;انعکاس در آب&lt;/figcaption&gt;
   &lt;/figure&gt;
+
   &lt;figure style=&quot;margin: 0;&quot;&gt;
-    &lt;img src=&quot;/images/2026-04-06/20260406_IMG_6324.jpeg&quot; style=&quot;width: 100%; height: 400px; object-fit: cover;&quot; alt=&quot;آسانسورِ شهر&quot; /&gt;
-    &lt;figcaption style=&quot;text-align:center;&quot;&gt;آسانسورِ شهر&lt;/figcaption&gt;
+    &lt;img src=&quot;/images/2026-04-06/20260406_IMG_6281.jpeg&quot; style=&quot;width: 100%; height: 220px; object-fit: cover;&quot; alt=&quot;نمای شهر از بالای یک پل&quot; /&gt;
   &lt;/figure&gt;
+
   &lt;figure style=&quot;margin: 0;&quot;&gt;
     &lt;img src=&quot;/images/2026-04-06/20260406_IMG_6268.jpeg&quot; style=&quot;width: 100%; height: 400px; object-fit: cover;&quot; alt=&quot;بازار دستِ دوم فروشی&quot; /&gt;
     &lt;figcaption style=&quot;text-align:center;&quot;&gt;بازار دستِ دوم فروشی&lt;/figcaption&gt;

@@ -58,3 +58,12 @@ Also, please check the [Deployment Methods](https://jekyllrb.com/docs/deployment
 ## Licenses
 
 All files and directories are licensed under the [MIT](https://opensource.org/licenses/mit-license.php) unless explicitly stated.
+
+
+### Terminal commands for updating the local website after creating a new post
+bundle exec jekyll server -> Runs the local server and always updates when a new change is made
+bundle exec jekyll build
+bundle update
+
+### Terminal command for resizing images in a folder:
+find . -name "*.jpeg" -o -name "*.jpg" | xargs -I {} magick {} -quality 40 {}
